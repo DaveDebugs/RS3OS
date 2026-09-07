@@ -1,0 +1,6 @@
+# RESUME_P_NAMEDIALOG -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+hi int
+lo int

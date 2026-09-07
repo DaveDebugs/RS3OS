@@ -1,0 +1,252 @@
+# Interface defaults: the client-side variables a character is handed on its
+# very first login, before it has any saved state of its own.
+#
+# columns: kind<TAB>id<TAB>value      kind is varc | varcbit | varcstr
+#
+# 240 entries: 92 varc, 100 varcbit, 48 varcstr. Sent only to a character whose
+# PlayerSave.varcs is empty; from then on the character's own settings win.
+# Read by com.opennxt.content.impl.VarcRestore.
+#
+# Treat this as a starting layout that is known to produce a working HUD, not as
+# a specification of the client's own defaults. It contains interface state only
+# -- panel positions, tab selections, HUD arrangement -- and no player data.
+varc	181	0
+varc	695	0
+varc	779	3598
+varc	1000	140
+varc	1027	1
+varc	1034	2
+varc	1077	0
+varc	1413	1
+varc	1436	1
+varc	1469	97
+varc	1470	98
+varc	1471	99
+varc	1472	95
+varc	1473	96
+varc	1474	97
+varc	1475	99
+varc	1476	98
+varc	1477	98
+varc	1478	114
+varc	1479	99
+varc	1480	97
+varc	1481	104
+varc	1482	103
+varc	1483	95
+varc	1484	98
+varc	1485	97
+varc	1486	98
+varc	1487	97
+varc	1488	101
+varc	1489	99
+varc	1490	94
+varc	1491	99
+varc	1492	96
+varc	1493	96
+varc	1569	0
+varc	1570	0
+varc	1571	1
+varc	1572	0
+varc	1573	1
+varc	1574	0
+varc	1575	1
+varc	1576	0
+varc	1577	0
+varc	1578	0
+varc	1579	0
+varc	1580	0
+varc	1581	0
+varc	1582	0
+varc	1583	0
+varc	1584	0
+varc	1585	0
+varc	1586	0
+varc	1587	0
+varc	1589	0
+varc	1590	0
+varc	1649	0
+varc	1792	0
+varc	1793	0
+varc	1800	0
+varc	1804	8
+varc	1928	0
+varc	2001	0
+varc	2002	0
+varc	2003	0
+varc	2059	0
+varc	2746	0
+varc	2771	43650361
+varc	2834	0
+varc	3496	0
+varc	3497	0
+varc	3699	4096
+varc	3715	92
+varc	3855	0
+varc	4125	0
+varc	4266	0
+varc	4620	0
+varc	4621	0
+varc	4622	0
+varc	4623	0
+varc	4659	74
+varc	4660	130490
+varc	4738	0
+varc	4968	0
+varc	4969	20
+varc	5125	81
+varc	5128	0
+varc	5153	1
+varc	6348	0
+varc	6481	0
+varc	6783	93
+varc	7108	1
+varc	7292	103
+varcbit	43545	0
+varcbit	43546	0
+varcbit	43547	0
+varcbit	43548	0
+varcbit	43549	1
+varcbit	43550	0
+varcbit	43551	0
+varcbit	43552	0
+varcbit	43553	0
+varcbit	43554	0
+varcbit	43555	0
+varcbit	43556	0
+varcbit	43557	0
+varcbit	43558	0
+varcbit	43559	0
+varcbit	43560	0
+varcbit	43561	0
+varcbit	43562	0
+varcbit	43563	0
+varcbit	43564	0
+varcbit	43565	0
+varcbit	43566	0
+varcbit	43567	0
+varcbit	43568	0
+varcbit	43569	0
+varcbit	43570	0
+varcbit	43571	0
+varcbit	43572	1
+varcbit	43573	0
+varcbit	43574	0
+varcbit	43575	0
+varcbit	43576	0
+varcbit	43577	1
+varcbit	43578	1
+varcbit	43579	1
+varcbit	43580	0
+varcbit	43581	0
+varcbit	43582	0
+varcbit	43583	0
+varcbit	43584	0
+varcbit	43585	0
+varcbit	43586	0
+varcbit	43587	0
+varcbit	43588	0
+varcbit	43589	0
+varcbit	43590	0
+varcbit	43591	0
+varcbit	43592	0
+varcbit	43593	0
+varcbit	43594	0
+varcbit	43595	0
+varcbit	43596	0
+varcbit	43597	0
+varcbit	43598	1
+varcbit	43599	0
+varcbit	43600	1
+varcbit	43601	0
+varcbit	43602	1
+varcbit	43603	1
+varcbit	43604	1
+varcbit	43605	0
+varcbit	43606	0
+varcbit	43607	0
+varcbit	43608	1
+varcbit	43609	0
+varcbit	43610	0
+varcbit	43611	1
+varcbit	43612	0
+varcbit	43613	0
+varcbit	43614	1
+varcbit	43615	0
+varcbit	43616	0
+varcbit	43617	0
+varcbit	43618	1
+varcbit	43619	1
+varcbit	43620	1
+varcbit	43621	1
+varcbit	43622	1
+varcbit	43623	1
+varcbit	43624	0
+varcbit	43625	1
+varcbit	43626	0
+varcbit	43627	1
+varcbit	43628	0
+varcbit	43629	1
+varcbit	43630	1
+varcbit	43631	0
+varcbit	43632	0
+varcbit	43633	1
+varcbit	43634	1
+varcbit	43635	0
+varcbit	43636	1
+varcbit	43637	1
+varcbit	43638	0
+varcbit	43639	0
+varcbit	43640	0
+varcbit	43641	1
+varcbit	43642	0
+varcbit	43643	0
+varcbit	43644	0
+varcstr	2254	
+varcstr	2255	
+varcstr	2256	
+varcstr	2257	
+varcstr	2258	
+varcstr	2259	
+varcstr	2260	
+varcstr	2261	
+varcstr	2262	
+varcstr	2263	
+varcstr	2264	
+varcstr	2265	
+varcstr	2266	
+varcstr	2267	
+varcstr	2268	
+varcstr	2269	
+varcstr	2270	
+varcstr	2271	
+varcstr	2272	
+varcstr	2273	
+varcstr	2274	
+varcstr	2275	
+varcstr	2276	
+varcstr	2277	
+varcstr	2278	
+varcstr	2279	
+varcstr	2280	
+varcstr	2281	
+varcstr	2282	
+varcstr	2283	
+varcstr	2508	zefferion
+varcstr	2516	Familiar Special Ability
+varcstr	2517	Cast your familiar's special ability.
+varcstr	3947	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3948	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3949	Use an item on this magical notepaper to make it noted and stackable.
+varcstr	3950	A stackable log that can be used for Firemaking and/or Fletching XP.
+varcstr	3951	Springs that are used to charge the spring cleaner. Can also be used to upgrade the spring cleaner to unlock additional features.
+varcstr	3952	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3953	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3954	Rub this lamp to get XP in a skill of your choice.
+varcstr	3955	A stackable hide that can be used to train your Crafting.
+varcstr	3956	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3957	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3958	This is a stackable bar that can be worked for Smithing XP based on your Smithing level.
+varcstr	3959	Rub this lamp to get XP in a skill of your choice.
+varcstr	3960	This star can be drained of energy to give you Bonus XP in a skill of your choice.
+varcstr	3961	Magical trinkets that can teleport you to chromatic dragon locations, give Slayer XP, note items and land a finishing blow when fighting chromatic dragons.

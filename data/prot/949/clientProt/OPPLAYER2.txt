@@ -1,0 +1,6 @@
+# OPPLAYER2 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+ctrl ubyte # bit 2 of the keyboard modifier word (ctrl held). 0 or 1 - NO +128 here, unlike OPLOC
+index ushortle # the client's PLAYER slot index, the same 16-bit index PLAYER_INFO assigns

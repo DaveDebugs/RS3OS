@@ -1,0 +1,9 @@
+# OPTILET -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+selhash intv2
+selobj umediumle
+y ushortle128
+x ushort
+selsub ushortle128

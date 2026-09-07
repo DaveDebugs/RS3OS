@@ -1,0 +1,7 @@
+# SET_CHATFILTERSETTINGS -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+public ubyte
+private ubyte
+trade ubyte

@@ -1,0 +1,8 @@
+# LOC_ANIM -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+delayOrSpeed ubytec
+coord ubyte
+anim intv1
+shapeRotation ubyte128

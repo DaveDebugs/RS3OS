@@ -1,0 +1,8 @@
+# OBJ_COUNT_949 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+coord ubyte
+id umedium
+oldCount ushort
+newCount ushort

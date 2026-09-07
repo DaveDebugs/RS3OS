@@ -1,0 +1,9 @@
+# LOC_PLACEMENT_SET -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+enabled ubyte128
+hiddenops ubyte
+cornerb intle
+cornera intle
+script intv1

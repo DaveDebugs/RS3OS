@@ -1,0 +1,7 @@
+# SOUND_MIXBUSS_ADD -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+bus ushort
+parent ushort
+gain ushort

@@ -1,0 +1,8 @@
+# IF_SETOBJECT64_949 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+obj umedium
+counthi intv2
+countlo intv2
+component intv2

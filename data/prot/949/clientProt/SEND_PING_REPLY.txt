@@ -1,0 +1,7 @@
+# SEND_PING_REPLY -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+a intv2
+value ubytec
+b int

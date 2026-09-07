@@ -1,0 +1,6 @@
+# IF_SETSCROLLPOS -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+scrollpos ushort128
+component intv2

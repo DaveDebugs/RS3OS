@@ -1,0 +1,10 @@
+# IF_BUTTOND -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+targetslot ushort
+targetobj umediumx2
+sourceobj umedium
+sourceslot ushortle128
+targethash int
+sourcehash intv1

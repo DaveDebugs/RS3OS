@@ -1,0 +1,6 @@
+# SOUND_STOP -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+sound int
+group ushort

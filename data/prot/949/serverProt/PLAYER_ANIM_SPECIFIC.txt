@@ -1,0 +1,9 @@
+# PLAYER_ANIM_SPECIFIC -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+anim0 intv1
+anim1 intv1
+anim2 intv1
+anim3 intv1
+delay sbyte128

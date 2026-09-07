@@ -1,0 +1,7 @@
+# TELEMETRY_GRID_MOVE_COLUMN -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+to ubyte128
+from u128byte
+table ubytec

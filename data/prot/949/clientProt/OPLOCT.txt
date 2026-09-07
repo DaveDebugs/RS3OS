@@ -1,0 +1,11 @@
+# OPLOCT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+y ushort
+x ushort128
+selobj umedium
+ctrl ubyte128
+selhash intle
+loc intv1
+selsub ushortle128

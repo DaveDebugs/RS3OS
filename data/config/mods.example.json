@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "Copy this to mods.json and put your own account in it. mods.json is gitignored:",
+    "it is per-deployment configuration, not something to publish.",
+    "",
+    "rights: 0 = ordinary player, 2 = game mod. Anything >= 2 is read as 2.",
+    "powers: omit the array entirely to grant every power the rank implies.",
+    "        spawn-item  ::item / ::spawn",
+    "        spawn-npc   ::npc",
+    "        teleport    ::tele",
+    "        lodestone   ::lodestone",
+    "        grant       ::mod and ::mods reload",
+    "",
+    "This file wins over the player save on login, so an owner who has been",
+    "demoted in-game can always take rights back by editing it.",
+    "Usernames are matched lowercased and trimmed."
+  ],
+  "mods": [
+    { "username": "your account name here", "rights": 2, "powers": ["spawn-item", "spawn-npc", "teleport", "lodestone", "grant"], "note": "server owner" }
+  ]
+}

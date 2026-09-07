@@ -1,0 +1,9 @@
+# IF_BUTTON_LABELLED -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+slot ushortle # dispatcher arg4. 0xffff = -1. See below - the name is AUTHORED.
+op ubyte  # dispatcher arg5 = r12d, the menu option, 1-BASED 1..10,[r12-1]; cmp eax,9` on the sibling branch).
+label string # NUL-terminated cp1252, no version prefix. The component's own baked menu string, componentDef+0x130.
+hash int # big-endian. (interface << 16) | component - see the caller evidence below.
+defFlag ubytec # byte at componentDef+0x148, written NEGATED; `ubytec` (NEGATE) reads the original byte back. MEANING UNKNOWN - the key names its provenance, not its semantics.

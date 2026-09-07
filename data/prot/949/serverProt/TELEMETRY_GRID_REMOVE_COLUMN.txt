@@ -1,0 +1,6 @@
+# TELEMETRY_GRID_REMOVE_COLUMN -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+table ubytec
+column ubyte128

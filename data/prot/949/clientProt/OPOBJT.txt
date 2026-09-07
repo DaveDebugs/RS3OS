@@ -1,0 +1,11 @@
+# OPOBJT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+y ushortle128
+selhash int
+selsub ushortle
+flags u128byte
+obj umediumx1
+x ushortle
+selobj umediumx1

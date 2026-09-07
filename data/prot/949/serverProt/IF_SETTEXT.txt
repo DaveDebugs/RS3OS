@@ -1,0 +1,6 @@
+# IF_SETTEXT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+text string
+parent intv1

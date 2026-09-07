@@ -1,0 +1,6 @@
+# IF_SETGRAPHIC -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+graphic intv1
+component int

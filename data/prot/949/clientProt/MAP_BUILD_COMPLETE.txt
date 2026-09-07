@@ -1,0 +1,5 @@
+# MAP_BUILD_COMPLETE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+elapsed int

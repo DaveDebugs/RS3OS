@@ -1,0 +1,3517 @@
+{
+ "fishing": {
+  "data": [
+   {
+    "high": 256,
+    "image": "Raw minnow",
+    "level": 1,
+    "link": "Raw minnow",
+    "low": 200,
+    "name": "minnow",
+    "text": "Minnow",
+    "tool": "Fishing rod",
+    "xp": 12
+   },
+   {
+    "high": 256,
+    "image": "Raw crayfish",
+    "level": 1,
+    "link": "Raw crayfish",
+    "low": 200,
+    "name": "crayfish",
+    "text": "Crayfish",
+    "tool": "Crayfish cage",
+    "xp": 10
+   },
+   {
+    "high": 128,
+    "image": "Raw anchovies",
+    "level": 15,
+    "link": "Raw anchovies",
+    "low": 24,
+    "name": "anchovies",
+    "spot": "Net/bait: net",
+    "text": "Anchovies",
+    "tool": "Small fishing net",
+    "xp": 40
+   },
+   {
+    "high": 256,
+    "image": "Raw shrimps",
+    "level": 1,
+    "link": "Raw shrimps",
+    "low": 48,
+    "name": "shrimps",
+    "spot": "Net/bait: net",
+    "text": "Shrimps",
+    "tool": "Small fishing net",
+    "xp": 10
+   },
+   {
+    "high": 128,
+    "image": "Raw herring",
+    "level": 10,
+    "link": "Raw herring",
+    "low": 24,
+    "name": "herring",
+    "spot": "Net/bait: bait",
+    "text": "Herring",
+    "tool": "Fishing rod",
+    "xp": 30
+   },
+   {
+    "high": 192,
+    "image": "Raw sardine",
+    "level": 5,
+    "link": "Raw sardine",
+    "low": 32,
+    "name": "sardine",
+    "spot": "Net/bait: bait",
+    "text": "Sardine",
+    "tool": "Fishing rod",
+    "xp": 20
+   },
+   {
+    "high": 96,
+    "image": "Raw salmon",
+    "level": 30,
+    "link": "Raw salmon",
+    "low": 16,
+    "name": "salmon",
+    "spot": "Lure/bait: lure",
+    "text": "Salmon",
+    "tool": "Fly fishing rod",
+    "xp": 70
+   },
+   {
+    "high": 192,
+    "image": "Raw trout",
+    "level": 20,
+    "link": "Raw trout",
+    "low": 32,
+    "name": "trout",
+    "spot": "Lure/bait: lure",
+    "text": "Trout",
+    "tool": "Fly fishing rod",
+    "xp": 50
+   },
+   {
+    "high": 96,
+    "image": "Raw pike",
+    "level": 25,
+    "link": "Raw pike",
+    "low": 16,
+    "name": "pike",
+    "spot": "Lure/bait: bait",
+    "text": "Pike",
+    "tool": "Fishing rod",
+    "xp": 60
+   },
+   {
+    "high": 96,
+    "image": "Frog spawn",
+    "level": 33,
+    "link": "Frog spawn",
+    "low": 16,
+    "name": "frog spawn",
+    "spot": "Frogspawn",
+    "text": "Frog spawn",
+    "tool": "Small fishing net",
+    "xp": 75
+   },
+   {
+    "high": 10,
+    "image": "Swamp weed",
+    "level": 33,
+    "link": "Swamp weed",
+    "low": 10,
+    "name": "swamp weed",
+    "spot": "Frogspawn",
+    "text": "Swamp weed",
+    "tool": "Small fishing net",
+    "xp": 1
+   },
+   {
+    "high": 80,
+    "image": "Slimy eel",
+    "level": 28,
+    "link": "Slimy eel",
+    "low": 10,
+    "name": "slimy eel",
+    "spot": "Cave eel",
+    "text": "Slimy eel",
+    "tool": "Fishing rod",
+    "xp": 65
+   },
+   {
+    "high": 80,
+    "image": "Raw cave eel",
+    "level": 38,
+    "link": "Raw cave eel",
+    "low": 10,
+    "name": "cave eel",
+    "spot": "Cave eel",
+    "text": "Cave eel",
+    "tool": "Fishing rod",
+    "xp": 80
+   },
+   {
+    "delay": 5,
+    "high": 36,
+    "image": "Raw cavefish",
+    "level": 85,
+    "link": "Raw cavefish",
+    "low": 1,
+    "name": "cavefish",
+    "text": "Cavefish",
+    "tool": "Fishing rod",
+    "xp": 300
+   },
+   {
+    "delay": 5,
+    "high": 32,
+    "image": "Raw rocktail",
+    "level": 90,
+    "link": "Raw rocktail",
+    "low": 1,
+    "name": "rocktail",
+    "text": "Rocktail",
+    "tool": "Fishing rod",
+    "xp": 380
+   },
+   {
+    "high": 95,
+    "image": "Raw lobster",
+    "level": 40,
+    "link": "Raw lobster",
+    "low": 6,
+    "name": "lobster",
+    "text": "Lobster",
+    "tool": "Lobster pot",
+    "xp": 90
+   },
+   {
+    "delay": 5,
+    "high": 48,
+    "image": "Raw swordfish",
+    "level": 50,
+    "link": "Raw swordfish",
+    "low": 4,
+    "name": "swordfish",
+    "spot": "Cage/harpoon: harpoon",
+    "text": "Swordfish",
+    "tool": "Harpoon",
+    "xp": 100
+   },
+   {
+    "delay": 5,
+    "high": 64,
+    "image": "Raw tuna",
+    "level": 35,
+    "link": "Raw tuna",
+    "low": 8,
+    "name": "tuna",
+    "spot": "Cage/harpoon: harpoon",
+    "text": "Tuna",
+    "tool": "Harpoon",
+    "xp": 80
+   },
+   {
+    "high": 64,
+    "image": "Raw rainbow fish",
+    "level": 38,
+    "link": "Raw rainbow fish",
+    "low": 8,
+    "name": "rainbow fish",
+    "text": "Rainbow fish",
+    "tool": "Fly fishing rod",
+    "xp": 80
+   },
+   {
+    "high": 250,
+    "image": "Raw karambwanji",
+    "level": 5,
+    "link": "Raw karambwanji",
+    "low": 100,
+    "name": "karambwanji",
+    "text": "Karambwanji",
+    "tool": "Small fishing net",
+    "xp": 5
+   },
+   {
+    "high": 250,
+    "image": "Raw karambwan",
+    "level": 65,
+    "link": "Raw karambwan",
+    "low": 100,
+    "name": "karambwan",
+    "text": "Karambwan",
+    "tool": "Karambwan vessel (full)",
+    "xp": 105
+   },
+   {
+    "delay": 5,
+    "high": 40,
+    "image": "Raw shark",
+    "level": 76,
+    "link": "Raw shark",
+    "low": 3,
+    "name": "shark",
+    "spot": "Net/harpoon: harpoon",
+    "text": "Shark",
+    "tool": "Harpoon",
+    "xp": 110
+   },
+   {
+    "delay": 5,
+    "high": 40,
+    "image": "Raw great white shark",
+    "is_gws_toggle": true,
+    "level": 80,
+    "link": "Raw great white shark",
+    "low": 3,
+    "name": "great white shark",
+    "spot": "Net/harpoon: harpoon",
+    "text": "Great white shark (shark spot)",
+    "tool": "Harpoon",
+    "xp": 130
+   },
+   {
+    "high": 10,
+    "image": "Leather boots",
+    "level": 16,
+    "link": "Leather boots",
+    "low": 10,
+    "name": "leather boots",
+    "spot": "Big net",
+    "text": "Leather boots",
+    "tool": "Big fishing net",
+    "xp": 1
+   },
+   {
+    "high": 10,
+    "image": "Seaweed",
+    "level": 16,
+    "link": "Seaweed",
+    "low": 10,
+    "name": "seaweed",
+    "spot": "Big net",
+    "text": "Seaweed",
+    "tool": "Big fishing net",
+    "xp": 1
+   },
+   {
+    "high": 10,
+    "image": "Leather gloves",
+    "level": 16,
+    "link": "Leather gloves",
+    "low": 10,
+    "name": "leather gloves",
+    "spot": "Big net",
+    "text": "Leather gloves",
+    "tool": "Big fishing net",
+    "xp": 1
+   },
+   {
+    "high": 65,
+    "image": "Raw mackerel",
+    "level": 16,
+    "link": "Raw mackerel",
+    "low": 5,
+    "name": "mackerel",
+    "spot": "Big net",
+    "text": "Mackerel",
+    "tool": "Big fishing net",
+    "xp": 20
+   },
+   {
+    "high": 7,
+    "image": "Oyster",
+    "level": 16,
+    "link": "Oyster",
+    "low": 3,
+    "name": "oyster",
+    "spot": "Big net",
+    "text": "Oyster",
+    "tool": "Big fishing net",
+    "xp": 10
+   },
+   {
+    "high": 2,
+    "image": "Casket",
+    "level": 16,
+    "link": "Casket",
+    "low": 1,
+    "name": "casket",
+    "spot": "Big net",
+    "text": "Casket",
+    "tool": "Big fishing net",
+    "xp": 0
+   },
+   {
+    "high": 55,
+    "image": "Raw cod",
+    "level": 23,
+    "link": "Raw cod",
+    "low": 4,
+    "name": "cod",
+    "spot": "Big net",
+    "text": "Cod",
+    "tool": "Big fishing net",
+    "xp": 45
+   },
+   {
+    "high": 40,
+    "image": "Raw bass",
+    "level": 46,
+    "link": "Raw bass",
+    "low": 3,
+    "name": "bass",
+    "spot": "Big net",
+    "text": "Bass",
+    "tool": "Big fishing net",
+    "xp": 100
+   },
+   {
+    "high": 64,
+    "image": "Leaping sturgeon",
+    "level": 70,
+    "link": "Leaping sturgeon",
+    "low": 8,
+    "name": "leaping sturgeon",
+    "spot": "Barbarian fishing",
+    "text": "Leaping sturgeon",
+    "tool": "Barbarian rod",
+    "xp": 80
+   },
+   {
+    "high": 96,
+    "image": "Leaping salmon",
+    "level": 58,
+    "link": "Leaping salmon",
+    "low": 16,
+    "name": "leaping salmon",
+    "spot": "Barbarian fishing",
+    "text": "Leaping salmon",
+    "tool": "Barbarian rod",
+    "xp": 70
+   },
+   {
+    "high": 192,
+    "image": "Leaping trout",
+    "level": 48,
+    "link": "Leaping trout",
+    "low": 32,
+    "name": "Leaping trout",
+    "spot": "Barbarian fishing",
+    "text": "Leaping trout",
+    "tool": "Barbarian rod",
+    "xp": 50
+   },
+   {
+    "delay": 5,
+    "high": 96,
+    "image": "Raw lava eel",
+    "level": 53,
+    "link": "Raw lava eel",
+    "low": 16,
+    "name": "lava eel",
+    "text": "Lava eel",
+    "tool": "Oily fishing rod",
+    "xp": 30
+   },
+   {
+    "delay": 5,
+    "high": 90,
+    "image": "Raw monkfish",
+    "level": 62,
+    "link": "Raw monkfish",
+    "low": 48,
+    "name": "monkfish",
+    "text": "Monkfish",
+    "tool": "Small fishing net",
+    "xp": 120
+   },
+   {
+    "high": 70,
+    "image": "Crystal fragment",
+    "level": 75,
+    "link": "Crystal fragment",
+    "low": 10,
+    "name": "crystal fragment",
+    "spot": "Floating crystals",
+    "text": "Crystal fragment",
+    "tool": "Small fishing net",
+    "xp": 120
+   },
+   {
+    "high": 55,
+    "image": "Small crystal urchin",
+    "level": 93,
+    "link": "Small crystal urchin",
+    "low": 10,
+    "name": "small crystal urchin",
+    "text": "Small crystal urchin",
+    "tool": "Fishing rod",
+    "xp": 310
+   },
+   {
+    "high": 55,
+    "image": "Medium crystal urchin",
+    "level": 95,
+    "link": "Medium crystal urchin",
+    "low": 10,
+    "name": "medium crystal urchin",
+    "text": "Medium crystal urchin",
+    "tool": "Fishing rod",
+    "xp": 330
+   },
+   {
+    "high": 55,
+    "image": "Large crystal urchin",
+    "level": 97,
+    "link": "Large crystal urchin",
+    "low": 10,
+    "name": "large crystal urchin",
+    "text": "Large crystal urchin",
+    "tool": "Fishing rod",
+    "xp": 350
+   },
+   {
+    "high": 51,
+    "image": "Raw tarpon",
+    "level": 90,
+    "link": "Raw tarpon",
+    "low": 46,
+    "name": "tarpon",
+    "spot": "Arc rod",
+    "text": "Tarpon",
+    "tool": "Fishing rod",
+    "xp": 132.5
+   },
+   {
+    "high": 40,
+    "image": "Raw seerfish",
+    "level": 91,
+    "link": "Raw seerfish",
+    "low": 37,
+    "name": "seerfish (rod)",
+    "spot": "Arc rod",
+    "text": "Seerfish (rod)",
+    "tool": "Fishing rod",
+    "xp": 145.5
+   },
+   {
+    "high": 40,
+    "image": "Raw seerfish",
+    "level": 91,
+    "link": "Raw seerfish",
+    "low": 37,
+    "name": "seerfish (net)",
+    "spot": "Arc net",
+    "text": "Seerfish (net)",
+    "tool": "Big fishing net",
+    "xp": 145.5
+   },
+   {
+    "high": 17,
+    "image": "Raw sillago",
+    "level": 92,
+    "link": "Raw sillago",
+    "low": 14,
+    "name": "sillago",
+    "spot": "Arc net",
+    "text": "Sillago",
+    "tool": "Big fishing net",
+    "xp": 365
+   },
+   {
+    "high": 34,
+    "image": "Raw wobbegong",
+    "level": 96,
+    "link": "Raw wobbegong",
+    "low": 24,
+    "name": "wobbegong",
+    "text": "Wobbegong",
+    "tool": "Fishing rod",
+    "xp": 682.5
+   },
+   {
+    "high": 62,
+    "image": "Raw beltfish",
+    "is_menaphos": true,
+    "level": 72,
+    "link": "Raw beltfish",
+    "low": 7,
+    "name": "beltfish",
+    "spot": "Menaphos bait",
+    "text": "Beltfish",
+    "tool": "Fishing rod",
+    "xp": 92
+   },
+   {
+    "high": 80,
+    "image": "Raw catfish",
+    "is_menaphos": true,
+    "level": 60,
+    "link": "Raw catfish",
+    "low": 18,
+    "name": "catfish",
+    "spot": "Menaphos bait",
+    "text": "Catfish",
+    "tool": "Fishing rod",
+    "xp": 85
+   },
+   {
+    "high": 170,
+    "image": "Raw desert sole",
+    "is_menaphos": true,
+    "level": 52,
+    "link": "Raw desert sole",
+    "low": 28,
+    "name": "desert sole",
+    "spot": "Menaphos bait",
+    "text": "Desert sole",
+    "tool": "Fishing rod",
+    "xp": 60
+   },
+   {
+    "high": 92,
+    "image": "Magnetic minnow",
+    "level": 68,
+    "link": "Magnetic minnow",
+    "low": -5,
+    "name": "magnetic minnow",
+    "text": "Magnetic minnow",
+    "tool": "Fishing rod",
+    "xp": 140
+   },
+   {
+    "high": 71,
+    "image": "Raw green blubber jellyfish",
+    "level": 68,
+    "link": "Raw green blubber jellyfish",
+    "low": 23,
+    "name": "green blubber jellyfish",
+    "text": "Green blubber jellyfish",
+    "tool": "Fishing rod",
+    "xp": 165
+   },
+   {
+    "high": 34,
+    "image": "Raw blue blubber jellyfish",
+    "level": 91,
+    "link": "Raw blue blubber jellyfish",
+    "low": 1,
+    "name": "blue blubber jellyfish",
+    "text": "Blue blubber jellyfish",
+    "tool": "Fishing rod",
+    "xp": 390
+   },
+   {
+    "high": 32,
+    "image": "Raw sailfish",
+    "level": 97,
+    "link": "Raw sailfish",
+    "low": 1,
+    "name": "sailfish",
+    "text": "Sailfish",
+    "tool": "Fishing rod",
+    "xp": 400
+   },
+   {
+    "high": 59,
+    "image": "Raw sea turtle",
+    "level": 79,
+    "link": "Raw sea turtle",
+    "low": -11,
+    "name": "sea turtle",
+    "text": "Sea turtle (Deep Sea Fishing)",
+    "tool": "Fishing rod",
+    "xp": 240
+   },
+   {
+    "high": 59,
+    "image": "Raw manta ray",
+    "level": 81,
+    "link": "Raw manta ray",
+    "low": -11,
+    "name": "manta ray",
+    "text": "Manta ray (Deep Sea Fishing)",
+    "tool": "Fishing rod",
+    "xp": 200
+   },
+   {
+    "high": 59,
+    "image": "Raw great white shark",
+    "level": 80,
+    "link": "Raw great white shark",
+    "low": -11,
+    "name": "great white shark (dsf)",
+    "text": "Great white shark (Deep Sea Fishing)",
+    "tool": "Fishing rod",
+    "xp": 200
+   },
+   {
+    "high": 90,
+    "image": "Raw ghostly sole",
+    "level": 66,
+    "link": "Raw ghostly sole",
+    "low": 48,
+    "name": "ghostly sole",
+    "text": "Ghostly Sole",
+    "tool": "Fishing rod",
+    "xp": 130
+   }
+  ],
+  "provenance": {
+ "retrieved": "",
+   "revid": 37011174,
+   "title": "Module:Fishing chance calculator/data",
+   "url": "https://runescape.wiki/w/Module:Fishing_chance_calculator/data"
+  }
+ },
+ "hatchets": {
+  "data": {
+   "hatchets.all_hatchets": {
+    "1": {
+     "label": "Bronze",
+     "level": 1,
+     "power": 100,
+     "short": "bronze",
+     "tier_primary": true
+    },
+    "10": {
+     "label": "Volatile clay",
+     "level": 50,
+     "power": 630,
+     "short": "volatile_clay",
+     "tier_primary": false
+    },
+    "11": {
+     "label": "Orikalkum",
+     "level": 60,
+     "power": 770,
+     "short": "orikalkum",
+     "tier_primary": true
+    },
+    "12": {
+     "augmentable": true,
+     "label": "Dragon",
+     "level": 60,
+     "power": 800,
+     "short": "dragon",
+     "tier_primary": true
+    },
+    "13": {
+     "image": "Inferno adze",
+     "label": "Inferno adze",
+     "level": 60,
+     "power": 800,
+     "short": "inferno_adze",
+     "tier_primary": false
+    },
+    "14": {
+     "label": "Necronium",
+     "level": 70,
+     "power": 880,
+     "short": "necronium",
+     "tier_primary": true
+    },
+    "15": {
+     "augmentable": true,
+     "label": "Crystal",
+     "level": 70,
+     "power": 910,
+     "short": "crystal",
+     "tier_primary": true
+    },
+    "16": {
+     "label": "Bane",
+     "level": 80,
+     "power": 990,
+     "short": "bane",
+     "tier_primary": true
+    },
+    "17": {
+     "augmentable": true,
+     "label": "Imcando",
+     "level": 80,
+     "power": 1070,
+     "short": "imcando",
+     "tier_primary": true
+    },
+    "18": {
+     "label": "Elder rune",
+     "level": 90,
+     "power": 1150,
+     "short": "elder_rune",
+     "tier_primary": true
+    },
+    "19": {
+     "augmentable": true,
+     "image": "Hatchet of ember and glade",
+     "label": "Ember and glade",
+     "level": 90,
+     "power": 1185,
+     "short": "ember_and_glade",
+     "tier_primary": true
+    },
+    "2": {
+     "image": "Dwarven army axe",
+     "label": "Dwarven army axe",
+     "level": 1,
+     "power": 100,
+     "short": "dwarven_army",
+     "tier_primary": false
+    },
+    "20": {
+     "label": "Primal",
+     "level": 100,
+     "power": 1265,
+     "proficiency": {
+      "level": 106,
+      "power": 20
+     },
+     "short": "primal",
+     "tier_primary": true
+    },
+    "21": {
+     "augmentable": true,
+     "image": "Hatchet of bloom and blight",
+     "label": "Bloom and blight",
+     "level": 100,
+     "power": 1300,
+     "proficiency": {
+      "level": 106,
+      "power": 20
+     },
+     "short": "bloom_and_blight",
+     "tier_primary": true
+    },
+    "3": {
+     "label": "Iron",
+     "level": 10,
+     "power": 200,
+     "short": "iron",
+     "tier_primary": true
+    },
+    "4": {
+     "label": "Steel",
+     "level": 20,
+     "power": 300,
+     "short": "steel",
+     "tier_primary": true
+    },
+    "5": {
+     "label": "Black",
+     "level": 25,
+     "power": 350,
+     "short": "black",
+     "tier_primary": true
+    },
+    "6": {
+     "label": "Mithril",
+     "level": 30,
+     "power": 420,
+     "short": "mithril",
+     "tier_primary": true
+    },
+    "7": {
+     "label": "Adamant",
+     "level": 40,
+     "power": 525,
+     "short": "adamant",
+     "tier_primary": true
+    },
+    "8": {
+     "label": "Rune",
+     "level": 50,
+     "power": 630,
+     "short": "rune",
+     "tier_primary": true
+    },
+    "9": {
+     "label": "Sacred clay",
+     "level": 50,
+     "power": 630,
+     "short": "sacred_clay",
+     "tier_primary": false
+    }
+   }
+  },
+  "provenance": {
+ "retrieved": "",
+   "revid": 37170712,
+   "title": "Module:SkillUtils/HatchetData",
+   "url": "https://runescape.wiki/w/Module:SkillUtils/HatchetData"
+  }
+ },
+ "pickaxes": {
+  "data": {
+   "picks": {
+    "Adamant": {
+     "aug": 0,
+     "avg": 40,
+     "level": 40,
+     "max": 60,
+     "min": 20,
+     "name": "[[File:Adamant pickaxe.png|link=]] [[Adamant pickaxe|Adamant]]",
+     "pen": 50
+    },
+    "Adamant + 1": {
+     "aug": 0,
+     "avg": 41,
+     "level": 40,
+     "max": 61,
+     "min": 21,
+     "name": "[[File:Adamant pickaxe.png|link=]] [[Adamant pickaxe + 1|Adamant + 1]]",
+     "pen": 50
+    },
+    "Adamant + 2": {
+     "aug": 0,
+     "avg": 42,
+     "level": 40,
+     "max": 62,
+     "min": 22,
+     "name": "[[File:Adamant pickaxe.png|link=]] [[Adamant pickaxe + 2|Adamant + 2]]",
+     "pen": 50
+    },
+    "Bane": {
+     "aug": 0,
+     "avg": 80,
+     "level": 80,
+     "max": 120,
+     "min": 40,
+     "name": "[[File:Bane pickaxe.png|link=]] [[Bane pickaxe|Bane]]",
+     "pen": 180
+    },
+    "Bane + 1": {
+     "aug": 0,
+     "avg": 81,
+     "level": 80,
+     "max": 121,
+     "min": 41,
+     "name": "[[File:Bane pickaxe.png|link=]] [[Bane pickaxe + 1|Bane + 1]]",
+     "pen": 180
+    },
+    "Bane + 2": {
+     "aug": 0,
+     "avg": 82,
+     "level": 80,
+     "max": 122,
+     "min": 42,
+     "name": "[[File:Bane pickaxe.png|link=]] [[Bane pickaxe + 2|Bane + 2]]",
+     "pen": 180
+    },
+    "Bane + 3": {
+     "aug": 0,
+     "avg": 83,
+     "level": 80,
+     "max": 123,
+     "min": 43,
+     "name": "[[File:Bane pickaxe.png|link=]] [[Bane pickaxe + 3|Bane + 3]]",
+     "pen": 180
+    },
+    "Bane + 4": {
+     "aug": 0,
+     "avg": 84,
+     "level": 80,
+     "max": 124,
+     "min": 44,
+     "name": "[[File:Bane pickaxe + 4.png|link=]] [[Bane pickaxe + 4|Bane + 4]]",
+     "pen": 180
+    },
+    "Bronze": {
+     "aug": 0,
+     "avg": 5,
+     "level": 1,
+     "max": 7,
+     "min": 3,
+     "name": "[[File:Bronze pickaxe.png|link=]] [[Bronze pickaxe|Bronze]]",
+     "pen": 0
+    },
+    "Crystal": {
+     "aug": 1,
+     "avg": 74,
+     "level": 70,
+     "max": 109,
+     "min": 39,
+     "name": "[[File:Crystal pickaxe.png|link=]] [[Crystal pickaxe|Crystal]]",
+     "pen": 140
+    },
+    "Dragon": {
+     "aug": 1,
+     "avg": 63,
+     "level": 60,
+     "max": 93,
+     "min": 33,
+     "name": "[[File:Dragon pickaxe.png|link=]] [[Dragon pickaxe|Dragon]]",
+     "pen": 105
+    },
+    "Dwarven army axe": {
+     "aug": 0,
+     "avg": 5,
+     "level": 1,
+     "max": 7,
+     "min": 3,
+     "name": "[[File:Dwarven army axe.png|link=]] [[Dwarven army axe]]",
+     "pen": 0
+    },
+    "Earth and song": {
+     "aug": 1,
+     "avg": 95,
+     "level": 90,
+     "max": 140,
+     "min": 50,
+     "name": "[[File:Pickaxe of earth and song.png|link=]] [[Pickaxe of earth and song|Earth and song]]",
+     "pen": 225
+    },
+    "Elder rune": {
+     "aug": 0,
+     "avg": 90,
+     "level": 90,
+     "max": 135,
+     "min": 45,
+     "name": "[[File:Elder rune pickaxe.png|link=]] [[Elder rune pickaxe|Elder rune]]",
+     "pen": 225
+    },
+    "Elder rune + 1": {
+     "aug": 0,
+     "avg": 91,
+     "level": 90,
+     "max": 136,
+     "min": 46,
+     "name": "[[File:Elder rune pickaxe.png|link=]] [[Elder rune pickaxe + 1|Elder rune + 1]]",
+     "pen": 225
+    },
+    "Elder rune + 2": {
+     "aug": 0,
+     "avg": 92,
+     "level": 90,
+     "max": 137,
+     "min": 47,
+     "name": "[[File:Elder rune pickaxe.png|link=]] [[Elder rune pickaxe + 2|Elder rune + 2]]",
+     "pen": 225
+    },
+    "Elder rune + 3": {
+     "aug": 0,
+     "avg": 93,
+     "level": 90,
+     "max": 138,
+     "min": 48,
+     "name": "[[File:Elder rune pickaxe.png|link=]] [[Elder rune pickaxe + 3|Elder rune + 3]]",
+     "pen": 225
+    },
+    "Elder rune + 4": {
+     "aug": 0,
+     "avg": 94,
+     "level": 90,
+     "max": 139,
+     "min": 49,
+     "name": "[[File:Elder rune pickaxe.png|link=]] [[Elder rune pickaxe + 4|Elder rune + 4]]",
+     "pen": 225
+    },
+    "Elder rune + 5": {
+     "aug": 0,
+     "avg": 95,
+     "level": 90,
+     "max": 140,
+     "min": 50,
+     "name": "[[File:Elder rune pickaxe + 5.png|link=]] [[Elder rune pickaxe + 5|Elder rune + 5]]",
+     "pen": 225
+    },
+    "Imcando": {
+     "aug": 1,
+     "avg": 84,
+     "level": 80,
+     "max": 124,
+     "min": 44,
+     "name": "[[File:Imcando pickaxe.png|link=]] [[Imcando pickaxe|Imcando]]",
+     "pen": 180
+    },
+    "Inferno adze": {
+     "aug": 0,
+     "avg": 53,
+     "level": 50,
+     "max": 78,
+     "min": 28,
+     "name": "[[File:Inferno adze.png|link=]] [[Inferno adze]]",
+     "pen": 75
+    },
+    "Iron": {
+     "aug": 0,
+     "avg": 10,
+     "level": 10,
+     "max": 15,
+     "min": 5,
+     "name": "[[File:Iron pickaxe.png|link=]] [[Iron pickaxe|Iron]]",
+     "pen": 5
+    },
+    "Iron + 1": {
+     "aug": 0,
+     "avg": 11,
+     "level": 10,
+     "max": 16,
+     "min": 6,
+     "name": "[[File:Iron pickaxe.png|link=]] [[Iron pickaxe + 1|Iron + 1]]",
+     "pen": 5
+    },
+    "Life and death": {
+     "aug": 1,
+     "avg": 107.5,
+     "level": 100,
+     "max": 160,
+     "min": 55,
+     "name": "[[File:Pickaxe of life and death.png|link=]] [[Pickaxe of life and death|Life and death]]",
+     "pen": 275
+    },
+    "Mithril": {
+     "aug": 0,
+     "avg": 30,
+     "level": 30,
+     "max": 45,
+     "min": 15,
+     "name": "[[File:Mithril pickaxe.png|link=]] [[Mithril pickaxe|Mithril]]",
+     "pen": 30
+    },
+    "Mithril + 1": {
+     "aug": 0,
+     "avg": 31,
+     "level": 30,
+     "max": 46,
+     "min": 16,
+     "name": "[[File:Mithril pickaxe.png|link=]] [[Mithril pickaxe + 1|Mithril + 1]]",
+     "pen": 30
+    },
+    "Mithril + 2": {
+     "aug": 0,
+     "avg": 32,
+     "level": 30,
+     "max": 47,
+     "min": 17,
+     "name": "[[File:Mithril pickaxe.png|link=]] [[Mithril pickaxe + 2|Mithril + 2]]",
+     "pen": 30
+    },
+    "Necronium": {
+     "aug": 0,
+     "avg": 70,
+     "level": 70,
+     "max": 105,
+     "min": 35,
+     "name": "[[File:Necronium pickaxe.png|link=]] [[Necronium pickaxe|Necronium]]",
+     "pen": 140
+    },
+    "Necronium + 1": {
+     "aug": 0,
+     "avg": 71,
+     "level": 70,
+     "max": 106,
+     "min": 36,
+     "name": "[[File:Necronium pickaxe.png|link=]] [[Necronium pickaxe + 1|Necronium + 1]]",
+     "pen": 140
+    },
+    "Necronium + 2": {
+     "aug": 0,
+     "avg": 72,
+     "level": 70,
+     "max": 107,
+     "min": 37,
+     "name": "[[File:Necronium pickaxe.png|link=]] [[Necronium pickaxe + 2|Necronium + 2]]",
+     "pen": 140
+    },
+    "Necronium + 3": {
+     "aug": 0,
+     "avg": 73,
+     "level": 70,
+     "max": 108,
+     "min": 38,
+     "name": "[[File:Necronium pickaxe.png|link=]] [[Necronium pickaxe + 3|Necronium + 3]]",
+     "pen": 140
+    },
+    "Necronium + 4": {
+     "aug": 0,
+     "avg": 74,
+     "level": 70,
+     "max": 109,
+     "min": 39,
+     "name": "[[File:Necronium pickaxe + 4.png|link=]] [[Necronium pickaxe + 4|Necronium + 4]]",
+     "pen": 140
+    },
+    "Orikalkum": {
+     "aug": 0,
+     "avg": 60,
+     "level": 60,
+     "max": 90,
+     "min": 30,
+     "name": "[[File:Orikalkum pickaxe.png|link=]] [[Orikalkum pickaxe|Orikalkum]]",
+     "pen": 105
+    },
+    "Orikalkum + 1": {
+     "aug": 0,
+     "avg": 61,
+     "level": 60,
+     "max": 91,
+     "min": 31,
+     "name": "[[File:Orikalkum pickaxe.png|link=]] [[Orikalkum pickaxe + 1|Orikalkum + 1]]",
+     "pen": 105
+    },
+    "Orikalkum + 2": {
+     "aug": 0,
+     "avg": 62,
+     "level": 60,
+     "max": 92,
+     "min": 32,
+     "name": "[[File:Orikalkum pickaxe.png|link=]] [[Orikalkum pickaxe + 2|Orikalkum + 2]]",
+     "pen": 105
+    },
+    "Orikalkum + 3": {
+     "aug": 0,
+     "avg": 63,
+     "level": 60,
+     "max": 93,
+     "min": 33,
+     "name": "[[File:Orikalkum pickaxe + 3.png|link=]] [[Orikalkum pickaxe + 3|Orikalkum + 3]]",
+     "pen": 105
+    },
+    "Primal": {
+     "aug": 0,
+     "avg": 100,
+     "level": 100,
+     "max": 150,
+     "min": 50,
+     "name": "[[File:Primal pickaxe.png|link=]] [[Primal pickaxe|Primal]]",
+     "pen": 275
+    },
+    "Primal + 1": {
+     "aug": 0,
+     "avg": 101,
+     "level": 100,
+     "max": 151,
+     "min": 51,
+     "name": "[[File:Primal pickaxe.png|link=]] [[Primal pickaxe + 1|Primal+ 1]]",
+     "pen": 275
+    },
+    "Primal + 2": {
+     "aug": 0,
+     "avg": 102,
+     "level": 100,
+     "max": 152,
+     "min": 52,
+     "name": "[[File:Primal pickaxe.png|link=]] [[Primal pickaxe + 2|Primal + 2]]",
+     "pen": 275
+    },
+    "Primal + 3": {
+     "aug": 0,
+     "avg": 103,
+     "level": 100,
+     "max": 153,
+     "min": 53,
+     "name": "[[File:Primal pickaxe.png|link=]] [[Primal pickaxe + 3|Primal + 3]]",
+     "pen": 275
+    },
+    "Primal + 4": {
+     "aug": 0,
+     "avg": 104,
+     "level": 100,
+     "max": 154,
+     "min": 54,
+     "name": "[[File:Primal pickaxe.png|link=]] [[Primal pickaxe + 4|Primal + 4]]",
+     "pen": 275
+    },
+    "Primal + 5": {
+     "aug": 0,
+     "avg": 105,
+     "level": 100,
+     "max": 155,
+     "min": 55,
+     "name": "[[File:Primal pickaxe + 5.png|link=]] [[Primal pickaxe + 5|Primal + 5]]",
+     "pen": 275
+    },
+    "Rune": {
+     "aug": 0,
+     "avg": 50,
+     "level": 50,
+     "max": 75,
+     "min": 25,
+     "name": "[[File:Rune pickaxe.png|link=]] [[Rune pickaxe|Rune]]",
+     "pen": 75
+    },
+    "Rune + 1": {
+     "aug": 0,
+     "avg": 51,
+     "level": 50,
+     "max": 76,
+     "min": 26,
+     "name": "[[File:Rune pickaxe.png|link=]] [[Rune pickaxe + 1|Rune + 1]]",
+     "pen": 75
+    },
+    "Rune + 2": {
+     "aug": 0,
+     "avg": 52,
+     "level": 50,
+     "max": 77,
+     "min": 27,
+     "name": "[[File:Rune pickaxe.png|link=]] [[Rune pickaxe + 2|Rune + 2]]",
+     "pen": 75
+    },
+    "Rune + 3": {
+     "aug": 0,
+     "avg": 53,
+     "level": 50,
+     "max": 78,
+     "min": 28,
+     "name": "[[File:Rune pickaxe.png|link=]] [[Rune pickaxe + 3|Rune + 3]]",
+     "pen": 75
+    },
+    "Sacred clay": {
+     "aug": 0,
+     "avg": 50,
+     "level": 50,
+     "max": 75,
+     "min": 25,
+     "name": "[[File:Sacred clay pickaxe.png|link=]] [[Sacred clay pickaxe|Sacred clay]]",
+     "pen": 75
+    },
+    "Steel": {
+     "aug": 0,
+     "avg": 20,
+     "level": 20,
+     "max": 30,
+     "min": 10,
+     "name": "[[File:Steel pickaxe.png|link=]] [[Steel pickaxe|Steel]]",
+     "pen": 15
+    },
+    "Steel + 1": {
+     "aug": 0,
+     "avg": 21,
+     "level": 20,
+     "max": 31,
+     "min": 11,
+     "name": "[[File:Steel pickaxe.png|link=]] [[Steel pickaxe + 1|Steel + 1]]",
+     "pen": 15
+    },
+    "Volatile clay": {
+     "aug": 0,
+     "avg": 50,
+     "level": 50,
+     "max": 75,
+     "min": 25,
+     "name": "[[File:Volatile clay pickaxe.png|link=]] [[Volatile clay pickaxe|Volatile clay]]",
+     "pen": 75
+    }
+   },
+   "picks_order": [
+    "Bronze",
+    "Dwarven army axe",
+    "Iron",
+    "Iron + 1",
+    "Steel",
+    "Steel + 1",
+    "Mithril",
+    "Mithril + 1",
+    "Mithril + 2",
+    "Adamant",
+    "Adamant + 1",
+    "Adamant + 2",
+    "Sacred clay",
+    "Volatile clay",
+    "Rune",
+    "Rune + 1",
+    "Rune + 2",
+    "Rune + 3",
+    "Inferno adze",
+    "Orikalkum",
+    "Orikalkum + 1",
+    "Orikalkum + 2",
+    "Orikalkum + 3",
+    "Dragon",
+    "Necronium",
+    "Necronium + 1",
+    "Necronium + 2",
+    "Necronium + 3",
+    "Necronium + 4",
+    "Crystal",
+    "Bane",
+    "Bane + 1",
+    "Bane + 2",
+    "Bane + 3",
+    "Bane + 4",
+    "Imcando",
+    "Elder rune",
+    "Elder rune + 1",
+    "Elder rune + 2",
+    "Elder rune + 3",
+    "Elder rune + 4",
+    "Elder rune + 5",
+    "Earth and song",
+    "Primal",
+    "Primal + 1",
+    "Primal + 2",
+    "Primal + 3",
+    "Primal + 4",
+    "Primal + 5",
+    "Life and death"
+   ],
+   "short_picks_order": [
+    "Bronze",
+    "Iron + 1",
+    "Steel + 1",
+    "Mithril + 2",
+    "Adamant + 2",
+    "Rune + 3",
+    "Orikalkum + 3",
+    "Dragon",
+    "Necronium + 4",
+    "Crystal",
+    "Bane + 4",
+    "Imcando",
+    "Elder rune + 5",
+    "Earth and song",
+    "Primal + 5",
+    "Life and death"
+   ]
+  },
+  "provenance": {
+ "retrieved": "",
+   "revid": 37051878,
+   "title": "Module:MiningPicks/Data",
+   "url": "https://runescape.wiki/w/Module:MiningPicks/Data"
+  }
+ },
+ "seeds": {
+  "data": {
+   "seeds": {
+    "1": {
+     "high": 180,
+     "low": 101,
+     "seed": "potato_seed"
+    },
+    "10": {
+     "high": 80,
+     "low": 28,
+     "seed": "marrentill_seed"
+    },
+    "11": {
+     "high": 80,
+     "low": 31,
+     "seed": "tarromin_seed"
+    },
+    "12": {
+     "high": 80,
+     "low": 36,
+     "seed": "harralander_seed"
+    },
+    "13": {
+     "high": 80,
+     "low": 39,
+     "seed": "gout_tuber"
+    },
+    "14": {
+     "high": 80,
+     "low": 39,
+     "seed": "ranarr_seed"
+    },
+    "15": {
+     "high": 80,
+     "low": 43,
+     "seed": "spirit_weed_seed"
+    },
+    "16": {
+     "high": 80,
+     "low": 43,
+     "seed": "toadflax_seed"
+    },
+    "17": {
+     "high": 80,
+     "low": 46,
+     "seed": "irit_seed"
+    },
+    "18": {
+     "high": 80,
+     "low": 48,
+     "seed": "wergali_seed"
+    },
+    "19": {
+     "high": 80,
+     "low": 50,
+     "seed": "avantoe_seed"
+    },
+    "2": {
+     "high": 180,
+     "low": 105,
+     "seed": "onion_seed"
+    },
+    "20": {
+     "high": 80,
+     "low": 54,
+     "seed": "kwuarm_seed"
+    },
+    "21": {
+     "high": 88,
+     "low": 57,
+     "seed": "bloodweed_seed"
+    },
+    "22": {
+     "high": 80,
+     "low": 57,
+     "seed": "snapdragon_seed"
+    },
+    "23": {
+     "high": 80,
+     "low": 60,
+     "seed": "cadantine_seed"
+    },
+    "24": {
+     "high": 80,
+     "low": 64,
+     "seed": "lantadyme_seed"
+    },
+    "25": {
+     "high": 88,
+     "low": 60,
+     "seed": "arbuck_seed"
+    },
+    "26": {
+     "high": 80,
+     "low": 67,
+     "seed": "dwarf_weed_seed"
+    },
+    "27": {
+     "high": 80,
+     "low": 71,
+     "seed": "torstol_seed"
+    },
+    "28": {
+     "high": 90,
+     "low": 15,
+     "seed": "fellstalk_seed"
+    },
+    "29": {
+     "high": 180,
+     "low": 103,
+     "seed": "barley_seed"
+    },
+    "3": {
+     "high": 180,
+     "low": 107,
+     "seed": "cabbage_seed"
+    },
+    "30": {
+     "high": 180,
+     "low": 104,
+     "seed": "hammerstone_seed"
+    },
+    "31": {
+     "high": 180,
+     "low": 108,
+     "seed": "asgarnian_seed"
+    },
+    "32": {
+     "high": 180,
+     "low": 113,
+     "seed": "jute_seed"
+    },
+    "33": {
+     "high": 180,
+     "low": 116,
+     "seed": "yanillian_seed"
+    },
+    "34": {
+     "high": 180,
+     "low": 121,
+     "seed": "krandorian_seed"
+    },
+    "35": {
+     "high": 180,
+     "low": 128,
+     "seed": "wildblood_seed"
+    },
+    "36": {
+     "high": 180,
+     "low": 120,
+     "seed": "grapevine_seed"
+    },
+    "37": {
+     "high": 1,
+     "low": 1,
+     "seed": "reed_seed"
+    },
+    "38": {
+     "high": 1,
+     "low": 1,
+     "seed": "godly_grapevine_seed"
+    },
+    "39": {
+     "high": 80,
+     "low": 52,
+     "seed": "erzille_seed"
+    },
+    "4": {
+     "high": 180,
+     "low": 112,
+     "seed": "tomato_seed"
+    },
+    "40": {
+     "high": 80,
+     "low": 58,
+     "seed": "argway_seed"
+    },
+    "41": {
+     "high": 80,
+     "low": 56,
+     "seed": "ugune_seed"
+    },
+    "42": {
+     "high": 80,
+     "low": 59,
+     "seed": "shengo_seed"
+    },
+    "43": {
+     "high": 80,
+     "low": 62,
+     "seed": "samaden_seed"
+    },
+    "44": {
+     "high": 180,
+     "low": 120,
+     "seed": "cave_nightshade_seed"
+    },
+    "5": {
+     "high": 180,
+     "low": 88,
+     "seed": "sweetcorn_seed"
+    },
+    "6": {
+     "high": 180,
+     "low": 103,
+     "seed": "strawberry_seed"
+    },
+    "7": {
+     "high": 180,
+     "low": 126,
+     "seed": "watermelon_seed"
+    },
+    "8": {
+     "high": 180,
+     "low": 126,
+     "seed": "snape_grass_seed"
+    },
+    "9": {
+     "high": 80,
+     "low": 25,
+     "seed": "guam_seed"
+    }
+   }
+  },
+  "provenance": {
+ "retrieved": "",
+   "revid": 36714233,
+   "title": "Module:SkillUtils/SeedData",
+   "url": "https://runescape.wiki/w/Module:SkillUtils/SeedData"
+  }
+ },
+ "thieving": {
+  "data": [
+   {
+    "high": 240,
+    "image": "Man chathead",
+    "level": 1,
+    "link": "Man",
+    "low": 180,
+    "members": true,
+    "name": "Man",
+    "text": "Man/Women",
+    "trade": 0,
+    "xp": 8
+   },
+   {
+    "high": 240,
+    "image": "Seth Groats chathead",
+    "level": 10,
+    "link": "Farmer",
+    "low": 150,
+    "members": true,
+    "name": "Farmer",
+    "text": "Farmer",
+    "trade": 0,
+    "xp": 14.5
+   },
+   {
+    "high": 240,
+    "image": "H.A.M. Member (male) chathead",
+    "level": 15,
+    "link": "H.A.M. Member_(male)",
+    "low": 117,
+    "members": true,
+    "name": "H.A.M. Member",
+    "text": "H.A.M. Member",
+    "trade": 0,
+    "xp": 22.2
+   },
+   {
+    "high": 240,
+    "image": "H.A.M. Deacon chathead",
+    "level": 20,
+    "link": "Guard (H.A.M.)",
+    "low": 117,
+    "members": true,
+    "name": "Guard (H.A.M.)",
+    "text": "H.A.M. Guard ",
+    "trade": 0,
+    "xp": 22.2
+   },
+   {
+    "currency": "Phoenix feather",
+    "high": 240,
+    "image": "Phoenix chathead",
+    "level": 25,
+    "link": "Desert Phoenix",
+    "low": 100,
+    "members": true,
+    "name": "Desert Phoenix",
+    "text": "Desert Phoenix",
+    "trade": 0,
+    "xp": 26
+   },
+   {
+    "high": 240,
+    "image": "Achietties chathead",
+    "level": 25,
+    "link": "Warrior woman",
+    "low": 100,
+    "members": true,
+    "name": "Warrior woman",
+    "text": "Warrior woman",
+    "trade": 0,
+    "xp": 26
+   },
+   {
+    "high": 240,
+    "image": "Rogue icon",
+    "level": 32,
+    "link": "Rogue",
+    "low": 74,
+    "members": true,
+    "name": "Rogue",
+    "text": "Rogue",
+    "trade": 0,
+    "xp": 12
+   },
+   {
+    "high": 255,
+    "image": "Ur-tag chathead",
+    "level": 36,
+    "link": "Cave goblin (Dorgesh-Kaan)",
+    "low": 255,
+    "members": true,
+    "name": "Cave goblin",
+    "text": "Cave goblin",
+    "trade": 0,
+    "xp": 40
+   },
+   {
+    "high": 240,
+    "image": "Martin_the_Master_Gardener_chathead",
+    "level": 38,
+    "link": "Master Farmer",
+    "low": 90,
+    "members": true,
+    "name": "Master Farmer",
+    "text": "Master Farmer",
+    "trade": 0,
+    "xp": 43
+   },
+   {
+    "high": 240,
+    "image": "Lumbridge_guardsman_(bridge)_chathead",
+    "level": 40,
+    "link": "Guard (Varrock)",
+    "low": 50,
+    "members": true,
+    "name": "Guard",
+    "text": "Guard",
+    "trade": 0,
+    "xp": 46.8
+   },
+   {
+    "high": 255,
+    "image": "Polletix_chathead",
+    "level": 42,
+    "link": "Druid (Garden of Kharid)",
+    "low": 255,
+    "members": true,
+    "name": "Druid (Garden of Kharid)",
+    "text": "Druid",
+    "trade": 0,
+    "xp": 58
+   },
+   {
+    "high": 255,
+    "image": "Ghotistix chathead",
+    "level": 42,
+    "link": "Ghotistix",
+    "low": 255,
+    "members": true,
+    "name": "Ghotistix",
+    "text": "Ghotistix",
+    "trade": 0,
+    "xp": 58
+   },
+   {
+    "high": 240,
+    "image": "Brigand chathead",
+    "level": 45,
+    "link": "Brigand",
+    "low": 80,
+    "members": true,
+    "name": "Brigand",
+    "text": "Brigand",
+    "trade": 0,
+    "xp": 65
+   },
+   {
+    "high": 255,
+    "image": "Pontak chathead",
+    "level": 45,
+    "link": "Agnar",
+    "low": 255,
+    "members": true,
+    "name": "Fremennik citizen",
+    "text": "Fremennik citizen",
+    "trade": 0,
+    "xp": 65
+   },
+   {
+    "high": 255,
+    "image": "Menaphite perfume seller chathead",
+    "level": 46,
+    "link": "Menaphite marketeer",
+    "low": 255,
+    "members": true,
+    "name": "Menaphite marketeer",
+    "text": "Menaphite marketeer",
+    "trade": 0,
+    "xp": 66.6
+   },
+   {
+    "high": 325,
+    "image": "Examiner (blonde) chathead",
+    "level": 50,
+    "link": "Trainee archaeologist",
+    "low": 35,
+    "members": true,
+    "name": "Trainee archaeologist",
+    "text": "Trainee archaeologist",
+    "trade": 0,
+    "xp": 75
+   },
+   {
+    "high": 240,
+    "image": "Bandit (Kharidian Desert Bandit Camp) chathead",
+    "level": 53,
+    "link": "Bandit (Kharidian Desert Bandit Camp)",
+    "low": 50,
+    "members": true,
+    "name": "Bandit (Kharidian Desert Bandit Camp)",
+    "text": "Bandit (Kharidian Desert)",
+    "trade": 0,
+    "xp": 79.4
+   },
+   {
+    "high": 240,
+    "image": "Knight of Ardougne icon",
+    "level": 55,
+    "link": "Knight of Ardougne",
+    "low": 50,
+    "members": true,
+    "name": "Knight of Ardougne",
+    "text": "Knight of Ardougne",
+    "trade": 0,
+    "xp": 84.3
+   },
+   {
+    "high": 240,
+    "image": "Bandit (Pollnivneach) chathead",
+    "level": 55.1,
+    "link": "Bandit (Pollnivneach)",
+    "low": 80,
+    "members": true,
+    "name": "Bandit (Pollnivneach)",
+    "text": "Bandit (Pollnivneach)",
+    "trade": 0,
+    "xp": 84.3
+   },
+   {
+    "high": 240,
+    "image": "Rogue Enforcer icon",
+    "level": 62,
+    "link": "Rogue enforcer",
+    "low": 80,
+    "members": true,
+    "name": "Rogue enforcer",
+    "text": "Rogue Enforcer",
+    "trade": 0,
+    "xp": 35
+   },
+   {
+    "high": 288,
+    "image": "Wizard chathead",
+    "level": 64,
+    "link": "Wizards' Tower mage",
+    "low": -15,
+    "members": true,
+    "name": "Wizards' Tower mage",
+    "text": "Wizards' Tower mage",
+    "trade": 0,
+    "xp": 94.5
+   },
+   {
+    "high": 160,
+    "image": "Harold (Death Plateau) chathead",
+    "level": 65,
+    "link": "Watchman",
+    "low": 15,
+    "members": true,
+    "name": "Watchman",
+    "text": "Watchman (Yanille)",
+    "trade": 0,
+    "xp": 96.2
+   },
+   {
+    "high": 240,
+    "image": "Menaphite Thug chathead",
+    "level": 65.1,
+    "link": "Menaphite Thug",
+    "low": 80,
+    "members": true,
+    "name": "Menaphite Thug",
+    "text": "Menaphite Thug",
+    "trade": 0,
+    "xp": 96.2
+   },
+   {
+    "high": 170,
+    "image": "Paladin icon",
+    "level": 70,
+    "link": "Paladin",
+    "low": 40,
+    "members": true,
+    "name": "Paladin",
+    "text": "Paladin",
+    "trade": 0,
+    "xp": 106.2
+   },
+   {
+    "high": 175,
+    "image": "Local Gnome chathead",
+    "level": 75,
+    "link": "Gnome",
+    "low": 43,
+    "members": true,
+    "name": "Gnome",
+    "text": "Gnome",
+    "trade": 0,
+    "xp": 138.8
+   },
+   {
+    "high": 245,
+    "image": "Archaeologist (excavating, male) chathead",
+    "level": 78,
+    "link": "Archaeologist",
+    "low": -55,
+    "members": true,
+    "name": "Archaeologist",
+    "text": "Archaeologist",
+    "trade": 0,
+    "xp": 168
+   },
+   {
+    "high": 160,
+    "image": "Hero icon",
+    "level": 80,
+    "link": "Hero",
+    "low": 39,
+    "members": true,
+    "name": "Hero",
+    "text": "Hero",
+    "trade": 0,
+    "xp": 191.3
+   },
+   {
+    "high": 255,
+    "image": "Crux Eqal knight (Spring_Festival) chathead",
+    "level": 83,
+    "link": "Crux Eqal Knight",
+    "low": 255,
+    "members": true,
+    "name": "Crux Eqal Knight",
+    "text": "Crux Eqal Knight",
+    "trade": 0,
+    "xp": 194.2
+   },
+   {
+    "high": 100,
+    "image": "Arvel chathead",
+    "level": 85,
+    "link": "Arvel",
+    "low": 6,
+    "members": true,
+    "name": "Elf",
+    "text": "Elf",
+    "trade": 0,
+    "xp": 247.3
+   },
+   {
+    "buffersize": 25,
+    "currency": "chimes",
+    "high": 100,
+    "image": "Rosie (supplies) chathead",
+    "level": 86,
+    "link": "Waiko islander",
+    "low": 6,
+    "members": true,
+    "name": "Waiko islander",
+    "text": "Waiko islander",
+    "trade": 0,
+    "xp": 40.5
+   },
+   {
+    "buffersize": 25,
+    "currency": "chimes",
+    "high": 100,
+    "image": "Kotahi chathead",
+    "level": 88,
+    "link": "Cyclops (Cyclosis)",
+    "low": 6,
+    "members": true,
+    "name": "Cyclops (Cyclosis)",
+    "text": "Cyclops",
+    "trade": 0,
+    "xp": 42.5
+   },
+   {
+    "high": 255,
+    "image": "Yellow Fortune Director chathead",
+    "level": 90,
+    "link": "Trader",
+    "low": 255,
+    "members": true,
+    "name": "Trader",
+    "text": "Trader",
+    "trade": 0,
+    "xp": 389.5
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lord Iorwerth chathead",
+    "level": 91,
+    "link": "Iorwerth worker",
+    "low": 255,
+    "members": true,
+    "name": "Iorwerth worker",
+    "text": "Iorwerth worker",
+    "trade": 0,
+    "xp": 125
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lady Ithell chathead",
+    "level": 92,
+    "link": "Ithell worker",
+    "low": 255,
+    "members": true,
+    "name": "Ithell worker",
+    "text": "Ithell worker",
+    "trade": 0,
+    "xp": 130
+   },
+   {
+    "high": 255,
+    "image": "Rogue Captain icon",
+    "level": 92,
+    "link": "Rogue Captain",
+    "low": 255,
+    "members": true,
+    "name": "Rogue Captain",
+    "text": "Rogue Captain",
+    "trade": 0,
+    "xp": 125
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Arianwyn chathead",
+    "level": 93,
+    "link": "Cadarn worker",
+    "low": 255,
+    "members": true,
+    "name": "Cadarn worker",
+    "text": "Cadarn worker",
+    "trade": 0,
+    "xp": 135
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lord Amlodd chathead",
+    "level": 94,
+    "link": "Amlodd worker",
+    "low": 255,
+    "members": true,
+    "name": "Amlodd worker",
+    "text": "Amlodd worker",
+    "trade": 0,
+    "xp": 140
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lady Trahaearn chathead",
+    "level": 95,
+    "link": "Trahaearn worker",
+    "low": 255,
+    "members": true,
+    "name": "Trahaearn worker",
+    "text": "Trahaearn worker",
+    "trade": 0,
+    "xp": 145
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lady Hefin chathead",
+    "level": 96,
+    "link": "Hefin worker",
+    "low": 255,
+    "members": true,
+    "name": "Hefin worker",
+    "text": "Hefin worker",
+    "trade": 0,
+    "xp": 150
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lord Crwys chathead",
+    "level": 97,
+    "link": "Crwys worker",
+    "low": 255,
+    "members": true,
+    "name": "Crwys worker",
+    "text": "Crwys worker",
+    "trade": 0,
+    "xp": 155
+   },
+   {
+    "buffersize": 25,
+    "high": 255,
+    "image": "Lady Meilyr chathead",
+    "level": 98,
+    "link": "Meilyr worker",
+    "low": 255,
+    "members": true,
+    "name": "Meilyr worker",
+    "text": "Meilyr worker",
+    "trade": 0,
+    "xp": 170
+   },
+   {
+    "high": 150,
+    "image": "Vyrewatch_(4)_chathead",
+    "level": 100,
+    "link": "Vyrewatch tither",
+    "low": -180,
+    "members": true,
+    "name": "Vyrewatch tither",
+    "text": "Vyrewatch tither",
+    "trade": 0,
+    "xp": 422
+   },
+   {
+    "high": 143,
+    "image": "Goebie chathead",
+    "level": 102,
+    "link": "Goebie scavenger",
+    "low": -190,
+    "members": true,
+    "name": "Goebie scavenger",
+    "text": "Goebie scavenger",
+    "trade": 0,
+    "xp": 441
+   },
+   {
+    "high": 136,
+    "image": "Menaphite royal guard chathead",
+    "level": 104,
+    "link": "Menaphos market guard",
+    "low": -200,
+    "members": true,
+    "name": "Menaphos market guard",
+    "text": "Menaphos market guard",
+    "trade": 0,
+    "xp": 462
+   },
+   {
+    "high": 129,
+    "image": "Wizard Ilona chathead",
+    "level": 106,
+    "link": "Wizards' Tower master mage",
+    "low": -210,
+    "members": true,
+    "name": "Wizards' Tower master mage",
+    "text": "Wizards' Tower master mage",
+    "trade": 0,
+    "xp": 483
+   },
+   {
+    "high": 124,
+    "image": "Elissa chathead",
+    "level": 108,
+    "link": "Archaeology professor",
+    "low": -220,
+    "members": true,
+    "name": "Archaeology professor",
+    "text": "Archaeology professor",
+    "trade": 0,
+    "xp": 493.5
+   },
+   {
+    "high": 115,
+    "image": "TzHaar-Hur-Lek chathead",
+    "level": 111,
+    "link": "TzHaar-Hur trader",
+    "low": -235,
+    "members": true,
+    "name": "TzHaar-Hur trader",
+    "text": "TzHaar-Hur trader",
+    "trade": 0,
+    "xp": 504
+   },
+   {
+    "high": 108,
+    "image": "Fairy (green) chathead",
+    "level": 113,
+    "link": "Fairy trader",
+    "low": -245,
+    "members": true,
+    "name": "Fairy trader",
+    "text": "Fairy trader",
+    "trade": 0,
+    "xp": 525
+   },
+   {
+    "high": 92,
+    "image": "Vyrewatch chathead female",
+    "level": 118,
+    "link": "Vyrelord consumer",
+    "low": -265,
+    "members": true,
+    "name": "Vyrelord consumer",
+    "text": "Vyrelord/lady consumer",
+    "trade": 0,
+    "xp": 577.5
+   }
+  ],
+  "provenance": {
+ "retrieved": "",
+   "revid": 36966056,
+   "title": "Module:Thieving chance calculator/data",
+   "url": "https://runescape.wiki/w/Module:Thieving_chance_calculator/data"
+  }
+ },
+ "trees": {
+  "data": [
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 64,
+    "fell": 96,
+    "level": 1,
+    "logs": "Logs",
+    "name": "Tree",
+    "ratio": 31250,
+    "xp": 25,
+    "xp_burn": 40,
+    "xp_scrimshaw": 55
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 64,
+    "fell": -1,
+    "level": 1,
+    "logs": "Achey tree logs",
+    "name": "Achey Tree",
+    "ratio": 31250,
+    "xp": 25,
+    "xp_burn": 40,
+    "xp_scrimshaw": 55
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 32,
+    "fell": 32,
+    "level": 10,
+    "logs": "Oak logs",
+    "name": "Oak",
+    "ratio": 31250,
+    "xp": 37.5,
+    "xp_burn": 60,
+    "xp_scrimshaw": 85
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 16,
+    "fell": 32,
+    "level": 20,
+    "logs": "Willow logs",
+    "name": "Willow",
+    "ratio": 31250,
+    "xp": 67.5,
+    "xp_burn": 90,
+    "xp_scrimshaw": 155
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 15,
+    "fell": 32,
+    "level": 30,
+    "logs": "Teak logs",
+    "name": "Teak",
+    "ratio": 31250,
+    "xp": 85,
+    "xp_burn": 105,
+    "xp_scrimshaw": 200
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 12.5,
+    "fell": 32,
+    "level": 40,
+    "logs": "Maple logs",
+    "name": "Maple Tree",
+    "ratio": 31250,
+    "xp": 100,
+    "xp_burn": 135,
+    "xp_scrimshaw": 240
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": true,
+    "can_scrimshaw": false,
+    "chance": 12,
+    "fell": 32,
+    "level": 45,
+    "logs": "Bark",
+    "name": "Hollow tree",
+    "ratio": 31250,
+    "xp": 82.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 16,
+    "fell": 32,
+    "is_menaphos": true,
+    "level": 50,
+    "logs": "Acadia logs",
+    "name": "Acadia tree",
+    "ratio": 31250,
+    "xp": 80,
+    "xp_burn": 140,
+    "xp_scrimshaw": 220
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 9.5,
+    "fell": 32,
+    "level": 60,
+    "logs": "Mahogany logs",
+    "name": "Mahogany",
+    "ratio": 31250,
+    "xp": 125,
+    "xp_burn": 157.5,
+    "xp_scrimshaw": 300
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 8,
+    "fell": 32,
+    "level": 54,
+    "logs": "Arctic pine logs",
+    "name": "Arctic Pine",
+    "ratio": 31250,
+    "xp": 145,
+    "xp_burn": 125,
+    "xp_scrimshaw": 350
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 7,
+    "fell": 32,
+    "level": 58,
+    "logs": "Eucalyptus logs",
+    "name": "Eucalyptus tree",
+    "ratio": 31250,
+    "xp": 165,
+    "xp_burn": 193.5,
+    "xp_scrimshaw": 405
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 6,
+    "fell": 32,
+    "level": 70,
+    "logs": "Yew logs",
+    "name": "Yew",
+    "ratio": 31250,
+    "xp": 187.5,
+    "xp_burn": 202.5,
+    "xp_scrimshaw": 455
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 7,
+    "fell": 32,
+    "level": 68,
+    "logs": null,
+    "name": "Ivy",
+    "ratio": 18500,
+    "xp": 332.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 3,
+    "fell": 32,
+    "level": 80,
+    "logs": "Magic logs",
+    "name": "Magic tree",
+    "ratio": 31250,
+    "xp": 365,
+    "xp_burn": 303.8,
+    "xp_scrimshaw": 855
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 4,
+    "fell": 64,
+    "level": 76,
+    "logs": "Blisterwood logs",
+    "name": "Blisterwood Tree",
+    "ratio": 31250,
+    "xp": 265,
+    "xp_burn": 303.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 15,
+    "fell": -1,
+    "level": 83,
+    "logs": "Straight root",
+    "name": "Jade root (straight)",
+    "ratio": 31250,
+    "xp": 80.8,
+    "xp_burn": 160
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 15,
+    "fell": -1,
+    "level": 83,
+    "logs": "Curly root",
+    "name": "Jade root (curly)",
+    "ratio": 31250,
+    "xp": 80.8,
+    "xp_burn": 160
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 8,
+    "fell": -1,
+    "level": 83,
+    "logs": "Mutated vine",
+    "name": "Jade root (mutated)",
+    "ratio": 31250,
+    "xp": 161.6,
+    "xp_burn": 160
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 12,
+    "fell": 64,
+    "level": 85,
+    "logs": "Bloodwood logs",
+    "name": "Bloodwood tree",
+    "ratio": 31250,
+    "xp": 320
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 2.5,
+    "fell": 0,
+    "level": 90,
+    "logs": "Elder logs",
+    "name": "Elder tree",
+    "ratio": 31250,
+    "xp": 425,
+    "xp_burn": 444.5,
+    "xp_scrimshaw": 1030
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": true,
+    "chance": 9,
+    "fell": 8,
+    "level": 90,
+    "logs": "Bamboo",
+    "name": "Bamboo (tree)",
+    "ratio": 15000,
+    "xp": 202.5,
+    "xp_scrimshaw": 505.5
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 7,
+    "fell": 32,
+    "level": 94,
+    "logs": null,
+    "name": "Crystal tree",
+    "ratio": 18500,
+    "xp": 350
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": true,
+    "chance": 3.6,
+    "fell": 0,
+    "level": 96,
+    "logs": "Golden bamboo",
+    "name": "Golden Bamboo (tree)",
+    "ratio": 31250,
+    "xp": 655.5,
+    "xp_scrimshaw": 1521.5
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 7,
+    "fell": -1,
+    "level": 80,
+    "logs": "Crystal fragment",
+    "name": "Branching crystal",
+    "ratio": 31250,
+    "xp": 160
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 4,
+    "fell": 0,
+    "level": 81,
+    "logs": null,
+    "name": "Overgrown idol",
+    "ratio": 31250,
+    "xp": 315
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 14,
+    "fell": 0,
+    "is_bgh_tree": true,
+    "level": 1,
+    "logs": "Jungle logs",
+    "name": "Tree (Big Game Hunter)",
+    "ratio": 31250,
+    "xp": 1
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "chance": 7,
+    "fell": 0,
+    "is_bgh_tree": true,
+    "level": 1,
+    "logs": "Vine",
+    "name": "Jungle vines",
+    "ratio": 18000,
+    "xp": 1
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "chance": 3.2,
+    "fell": 0,
+    "level": 100,
+    "logs": "Eternal magic logs",
+    "name": "Eternal magic tree",
+    "ratio": 31250,
+    "xp": 635,
+    "xp_burn": 552,
+    "xp_scrimshaw": 1523.5
+   }
+  ],
+  "provenance": {
+ "retrieved": "",
+   "revid": 36706827,
+   "title": "Module:SkillUtils/TreeData",
+   "url": "https://runescape.wiki/w/Module:SkillUtils/TreeData"
+  }
+ },
+ "woodcutting_chance_sandbox": {
+  "data": [
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 256,
+    "high": {
+     "adamant": 600,
+     "black": 450,
+     "bronze": 200,
+     "crystal": 775,
+     "dragon": 750,
+     "iron": 300,
+     "mithril": 500,
+     "rune": 700,
+     "steel": 400
+    },
+    "level": 1,
+    "logs": "Logs",
+    "low": {
+     "adamant": 192,
+     "black": 144,
+     "bronze": 64,
+     "crystal": 248,
+     "dragon": 240,
+     "iron": 96,
+     "mithril": 160,
+     "rune": 224,
+     "steel": 128
+    },
+    "name": "Normal tree",
+    "xp": 25,
+    "xp_burn": 40,
+    "xp_scrimshaw": 30
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": -1,
+    "high": {
+     "adamant": 600,
+     "black": 450,
+     "bronze": 200,
+     "crystal": 775,
+     "dragon": 750,
+     "iron": 300,
+     "mithril": 500,
+     "rune": 700,
+     "steel": 400
+    },
+    "level": 1,
+    "logs": "Achey tree logs",
+    "low": {
+     "adamant": 192,
+     "black": 144,
+     "bronze": 64,
+     "crystal": 248,
+     "dragon": 240,
+     "iron": 96,
+     "mithril": 160,
+     "rune": 224,
+     "steel": 128
+    },
+    "name": "Achey Tree",
+    "xp": 25,
+    "xp_burn": 40,
+    "xp_scrimshaw": 30
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 300,
+     "black": 225,
+     "bronze": 100,
+     "crystal": 387,
+     "dragon": 375,
+     "iron": 150,
+     "mithril": 250,
+     "rune": 350,
+     "steel": 200
+    },
+    "level": 10,
+    "logs": "Oak logs",
+    "low": {
+     "adamant": 96,
+     "black": 72,
+     "bronze": 32,
+     "crystal": 124,
+     "dragon": 120,
+     "iron": 48,
+     "mithril": 80,
+     "rune": 112,
+     "steel": 64
+    },
+    "name": "Oak",
+    "xp": 37.5,
+    "xp_burn": 60,
+    "xp_scrimshaw": 47.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 150,
+     "black": 112,
+     "bronze": 50,
+     "crystal": 193,
+     "dragon": 187,
+     "iron": 75,
+     "mithril": 125,
+     "rune": 175,
+     "steel": 100
+    },
+    "level": 20,
+    "logs": "Willow logs",
+    "low": {
+     "adamant": 48,
+     "black": 36,
+     "bronze": 16,
+     "crystal": 62,
+     "dragon": 60,
+     "iron": 24,
+     "mithril": 40,
+     "rune": 56,
+     "steel": 32
+    },
+    "name": "Willow",
+    "xp": 67.5,
+    "xp_burn": 90,
+    "xp_scrimshaw": 87.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 140,
+     "black": 102,
+     "bronze": 46,
+     "crystal": 203,
+     "dragon": 190,
+     "iron": 70,
+     "mithril": 117,
+     "rune": 164,
+     "steel": 93
+    },
+    "level": 30,
+    "logs": "Teak logs",
+    "low": {
+     "adamant": 47,
+     "black": 35,
+     "bronze": 15,
+     "crystal": 63,
+     "dragon": 60,
+     "iron": 23,
+     "mithril": 39,
+     "rune": 55,
+     "steel": 31
+    },
+    "name": "Teak",
+    "xp": 85,
+    "xp_burn": 105,
+    "xp_scrimshaw": 115
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 75,
+     "black": 56,
+     "bronze": 25,
+     "crystal": 96,
+     "dragon": 93,
+     "iron": 37,
+     "mithril": 62,
+     "rune": 87,
+     "steel": 50
+    },
+    "level": 40,
+    "logs": "Maple logs",
+    "low": {
+     "adamant": 24,
+     "black": 18,
+     "bronze": 8,
+     "crystal": 31,
+     "dragon": 30,
+     "iron": 12,
+     "mithril": 20,
+     "rune": 28,
+     "steel": 16
+    },
+    "name": "Maple Tree",
+    "xp": 100,
+    "xp_burn": 135,
+    "xp_scrimshaw": 140
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": true,
+    "can_scrimshaw": false,
+    "fell": 32,
+    "high": {
+     "adamant": 81,
+     "black": 57,
+     "bronze": 26,
+     "crystal": 104,
+     "dragon": 101,
+     "iron": 40,
+     "mithril": 68,
+     "rune": 94,
+     "steel": 54
+    },
+    "level": 45,
+    "logs": "Bark",
+    "low": {
+     "adamant": 59,
+     "black": 42,
+     "bronze": 18,
+     "crystal": 68,
+     "dragon": 67,
+     "iron": 28,
+     "mithril": 46,
+     "rune": 64,
+     "steel": 36
+    },
+    "name": "Hollow tree",
+    "xp": 82.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 140,
+     "black": 102,
+     "bronze": 46,
+     "crystal": 198,
+     "dragon": 186,
+     "iron": 70,
+     "mithril": 117,
+     "rune": 164,
+     "steel": 93
+    },
+    "is_menaphos": true,
+    "level": 50,
+    "logs": "Acadia logs",
+    "low": {
+     "adamant": 47,
+     "black": 35,
+     "bronze": 15,
+     "crystal": 67,
+     "dragon": 64,
+     "iron": 23,
+     "mithril": 39,
+     "rune": 60,
+     "steel": 31
+    },
+    "name": "Acadia tree",
+    "xp": 80,
+    "xp_burn": 140,
+    "xp_scrimshaw": 140
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 75,
+     "black": 54,
+     "bronze": 25,
+     "crystal": 97,
+     "dragon": 94,
+     "iron": 38,
+     "mithril": 63,
+     "rune": 88,
+     "steel": 50
+    },
+    "level": 60,
+    "logs": "Mahogany logs",
+    "low": {
+     "adamant": 25,
+     "black": 18,
+     "bronze": 8,
+     "crystal": 36,
+     "dragon": 34,
+     "iron": 12,
+     "mithril": 20,
+     "rune": 29,
+     "steel": 16
+    },
+    "name": "Mahogany",
+    "xp": 125,
+    "xp_burn": 157.5,
+    "xp_scrimshaw": 175
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 90,
+     "black": 67,
+     "bronze": 30,
+     "crystal": 116,
+     "dragon": 112,
+     "iron": 44,
+     "mithril": 74,
+     "rune": 104,
+     "steel": 60
+    },
+    "level": 54,
+    "logs": "Arctic pine logs",
+    "low": {
+     "adamant": 17,
+     "black": 13,
+     "bronze": 6,
+     "crystal": 22,
+     "dragon": 21,
+     "iron": 8,
+     "mithril": 14,
+     "rune": 20,
+     "steel": 11
+    },
+    "name": "Arctic Pine",
+    "xp": 145,
+    "xp_burn": 125,
+    "xp_scrimshaw": 205
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 50,
+     "black": 37,
+     "bronze": 16,
+     "crystal": 64,
+     "dragon": 62,
+     "iron": 25,
+     "mithril": 41,
+     "rune": 58,
+     "steel": 33
+    },
+    "level": 58,
+    "logs": "Eucalyptus logs",
+    "low": {
+     "adamant": 16,
+     "black": 12,
+     "bronze": 5,
+     "crystal": 21,
+     "dragon": 20,
+     "iron": 8,
+     "mithril": 13,
+     "rune": 19,
+     "steel": 11
+    },
+    "name": "Eucalyptus tree",
+    "xp": 165,
+    "xp_burn": 193.5,
+    "xp_scrimshaw": 240
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 37,
+     "black": 28,
+     "bronze": 12,
+     "crystal": 48,
+     "dragon": 47,
+     "iron": 19,
+     "mithril": 31,
+     "rune": 44,
+     "steel": 25
+    },
+    "level": 70,
+    "logs": "Yew logs",
+    "low": {
+     "adamant": 12,
+     "black": 9,
+     "bronze": 4,
+     "crystal": 16,
+     "dragon": 15,
+     "iron": 6,
+     "mithril": 10,
+     "rune": 14,
+     "steel": 8
+    },
+    "name": "Yew",
+    "xp": 187.5,
+    "xp_burn": 202.5,
+    "xp_scrimshaw": 267.5
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 32,
+    "high": {
+     "adamant": 34,
+     "black": 26,
+     "bronze": 11,
+     "crystal": 44,
+     "dragon": 43,
+     "iron": 17,
+     "mithril": 28,
+     "rune": 40,
+     "steel": 22
+    },
+    "level": 68,
+    "logs": null,
+    "low": {
+     "adamant": 19,
+     "black": 14,
+     "bronze": 7,
+     "crystal": 24,
+     "dragon": 23,
+     "iron": 9,
+     "mithril": 16,
+     "rune": 22,
+     "steel": 13
+    },
+    "name": "Ivy",
+    "xp": 332.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 32,
+    "high": {
+     "adamant": 18,
+     "black": 13,
+     "bronze": 6,
+     "crystal": 23,
+     "dragon": 22,
+     "iron": 9,
+     "mithril": 15,
+     "rune": 21,
+     "steel": 12
+    },
+    "level": 80,
+    "logs": "Magic logs",
+    "low": {
+     "adamant": 6,
+     "black": 5,
+     "bronze": 2,
+     "crystal": 8,
+     "dragon": 7,
+     "iron": 3,
+     "mithril": 5,
+     "rune": 7,
+     "steel": 4
+    },
+    "name": "Magic tree",
+    "xp": 365,
+    "xp_burn": 303.8,
+    "xp_scrimshaw": 490
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 64,
+    "high": {
+     "adamant": 37,
+     "black": 28,
+     "bronze": 12,
+     "crystal": 48,
+     "dragon": 47,
+     "iron": 19,
+     "mithril": 31,
+     "rune": 44,
+     "steel": 25
+    },
+    "level": 76,
+    "logs": "Blisterwood logs",
+    "low": {
+     "adamant": 12,
+     "black": 9,
+     "bronze": 4,
+     "crystal": 16,
+     "dragon": 15,
+     "iron": 6,
+     "mithril": 10,
+     "rune": 14,
+     "steel": 8
+    },
+    "name": "Blisterwood Tree",
+    "xp": 265,
+    "xp_burn": 303.5
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": -1,
+    "high": {
+     "adamant": 140,
+     "black": 102,
+     "bronze": 46,
+     "crystal": 203,
+     "dragon": 190,
+     "iron": 70,
+     "mithril": 117,
+     "rune": 164,
+     "steel": 93
+    },
+    "level": 83,
+    "logs": "Straight root",
+    "low": {
+     "adamant": 47,
+     "black": 35,
+     "bronze": 15,
+     "crystal": 62,
+     "dragon": 60,
+     "iron": 23,
+     "mithril": 39,
+     "rune": 55,
+     "steel": 31
+    },
+    "name": "Jade root (straight)",
+    "xp": 80.8,
+    "xp_burn": 160
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": -1,
+    "high": {
+     "adamant": 140,
+     "black": 102,
+     "bronze": 46,
+     "crystal": 203,
+     "dragon": 190,
+     "iron": 70,
+     "mithril": 117,
+     "rune": 164,
+     "steel": 93
+    },
+    "level": 83,
+    "logs": "Curly root",
+    "low": {
+     "adamant": 47,
+     "black": 35,
+     "bronze": 15,
+     "crystal": 62,
+     "dragon": 60,
+     "iron": 23,
+     "mithril": 39,
+     "rune": 55,
+     "steel": 31
+    },
+    "name": "Jade root (curly)",
+    "xp": 80.8,
+    "xp_burn": 160
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": -1,
+    "high": {
+     "adamant": 75,
+     "black": 54,
+     "bronze": 25,
+     "crystal": 97,
+     "dragon": 94,
+     "iron": 38,
+     "mithril": 63,
+     "rune": 88,
+     "steel": 50
+    },
+    "level": 83,
+    "logs": "Mutated vine",
+    "low": {
+     "adamant": 25,
+     "black": 18,
+     "bronze": 8,
+     "crystal": 36,
+     "dragon": 34,
+     "iron": 12,
+     "mithril": 20,
+     "rune": 29,
+     "steel": 16
+    },
+    "name": "Jade root (mutated)",
+    "xp": 161.6,
+    "xp_burn": 160
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 64,
+    "high": {
+     "adamant": 100,
+     "black": 54,
+     "bronze": 10,
+     "crystal": 170,
+     "dragon": 150,
+     "iron": 12,
+     "mithril": 63,
+     "rune": 110,
+     "steel": 14
+    },
+    "level": 85,
+    "logs": "Bloodwood logs",
+    "low": {
+     "adamant": 4,
+     "black": 3,
+     "bronze": 0,
+     "crystal": 23,
+     "dragon": 22,
+     "iron": 1,
+     "mithril": 3,
+     "rune": 20,
+     "steel": 2
+    },
+    "name": "Bloodwood tree",
+    "xp": 320
+   },
+   {
+    "can_burn": true,
+    "can_crystallise": true,
+    "can_scrimshaw": true,
+    "fell": 0,
+    "high": {
+     "adamant": 18,
+     "black": 13,
+     "bronze": 6,
+     "crystal": 23,
+     "dragon": 22,
+     "iron": 9,
+     "mithril": 15,
+     "rune": 21,
+     "steel": 12
+    },
+    "level": 90,
+    "logs": "Elder logs",
+    "low": {
+     "adamant": 6,
+     "black": 5,
+     "bronze": 2,
+     "crystal": 8,
+     "dragon": 7,
+     "iron": 3,
+     "mithril": 5,
+     "rune": 7,
+     "steel": 4
+    },
+    "name": "Elder tree",
+    "xp": 425,
+    "xp_burn": 444.5,
+    "xp_scrimshaw": 605
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": true,
+    "fell": 8,
+    "high": {
+     "adamant": 43,
+     "black": 29,
+     "bronze": 10,
+     "crystal": 62,
+     "dragon": 58,
+     "iron": 18,
+     "mithril": 36,
+     "rune": 50,
+     "steel": 24
+    },
+    "level": 90,
+    "logs": "Bamboo",
+    "low": {
+     "adamant": 37,
+     "black": 21,
+     "bronze": 9,
+     "crystal": 57,
+     "dragon": 53,
+     "iron": 13,
+     "mithril": 28,
+     "rune": 45,
+     "steel": 18
+    },
+    "name": "Bamboo (tree)",
+    "xp": 202.5,
+    "xp_scrimshaw": 302.5
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 32,
+    "high": {
+     "adamant": 34,
+     "black": 26,
+     "bronze": 11,
+     "crystal": 44,
+     "dragon": 43,
+     "iron": 17,
+     "mithril": 28,
+     "rune": 40,
+     "steel": 22
+    },
+    "level": 94,
+    "logs": null,
+    "low": {
+     "adamant": 19,
+     "black": 14,
+     "bronze": 7,
+     "crystal": 24,
+     "dragon": 23,
+     "iron": 9,
+     "mithril": 16,
+     "rune": 22,
+     "steel": 13
+    },
+    "name": "Crystal tree",
+    "xp": 350
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": true,
+    "fell": 0,
+    "high": {
+     "adamant": 26,
+     "black": 17,
+     "bronze": 5,
+     "crystal": 34,
+     "dragon": 32,
+     "iron": 10,
+     "mithril": 19,
+     "rune": 29,
+     "steel": 14
+    },
+    "level": 96,
+    "logs": "Golden bamboo",
+    "low": {
+     "adamant": 20,
+     "black": 15,
+     "bronze": 4,
+     "crystal": 28,
+     "dragon": 25,
+     "iron": 9,
+     "mithril": 18,
+     "rune": 23,
+     "steel": 13
+    },
+    "name": "Golden Bamboo (tree)",
+    "xp": 655.5,
+    "xp_scrimshaw": 865.5
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": -1,
+    "high": {
+     "adamant": 34,
+     "black": 24,
+     "bronze": 10,
+     "crystal": 44,
+     "dragon": 40,
+     "iron": 15,
+     "mithril": 26,
+     "rune": 40,
+     "steel": 21
+    },
+    "level": 80,
+    "logs": "Crystal fragment",
+    "low": {
+     "adamant": 17,
+     "black": 14,
+     "bronze": 7,
+     "crystal": 22,
+     "dragon": 20,
+     "iron": 9,
+     "mithril": 16,
+     "rune": 18,
+     "steel": 13
+    },
+    "name": "Branching crystal",
+    "xp": 160
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 0,
+    "high": {
+     "adamant": 34,
+     "black": 26,
+     "bronze": 11,
+     "crystal": 44,
+     "dragon": 43,
+     "iron": 17,
+     "mithril": 28,
+     "rune": 40,
+     "steel": 22
+    },
+    "level": 81,
+    "logs": null,
+    "low": {
+     "adamant": 19,
+     "black": 14,
+     "bronze": 7,
+     "crystal": 24,
+     "dragon": 23,
+     "iron": 9,
+     "mithril": 16,
+     "rune": 22,
+     "steel": 13
+    },
+    "name": "Overgrown idol",
+    "xp": 315
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 0,
+    "high": {
+     "adamant": 166,
+     "black": 128,
+     "bronze": 128,
+     "crystal": 191,
+     "dragon": 191,
+     "iron": 128,
+     "mithril": 166,
+     "rune": 179,
+     "steel": 128
+    },
+    "is_bgh_tree": true,
+    "level": 1,
+    "logs": "Jungle logs",
+    "low": {
+     "adamant": 39,
+     "black": 43,
+     "bronze": 43,
+     "crystal": 32,
+     "dragon": -24,
+     "iron": 43,
+     "mithril": 39,
+     "rune": 30,
+     "steel": 43
+    },
+    "name": "Tree (Big Game Hunter)",
+    "xp": 1
+   },
+   {
+    "can_burn": false,
+    "can_crystallise": false,
+    "can_scrimshaw": false,
+    "fell": 0,
+    "high": {
+     "adamant": 166,
+     "black": 128,
+     "bronze": 128,
+     "crystal": 191,
+     "dragon": 191,
+     "iron": 128,
+     "mithril": 166,
+     "rune": 179,
+     "steel": 128
+    },
+    "is_bgh_tree": true,
+    "level": 1,
+    "logs": "Vine",
+    "low": {
+     "adamant": 39,
+     "black": 43,
+     "bronze": 43,
+     "crystal": 32,
+     "dragon": -24,
+     "iron": 43,
+     "mithril": 39,
+     "rune": 30,
+     "steel": 43
+    },
+    "name": "Jungle vines",
+    "xp": 1
+   }
+  ],
+  "provenance": {
+ "retrieved": "",
+   "revid": 36170145,
+   "title": "Module:Woodcutting chance calculator/sandbox/data",
+   "url": "https://runescape.wiki/w/Module:Woodcutting_chance_calculator/sandbox/data"
+  }
+ }
+}

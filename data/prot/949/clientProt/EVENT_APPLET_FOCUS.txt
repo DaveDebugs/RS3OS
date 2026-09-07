@@ -1,0 +1,5 @@
+# EVENT_APPLET_FOCUS -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+focused ubyte # 1 = our window has keyboard focus, 0 = it does not

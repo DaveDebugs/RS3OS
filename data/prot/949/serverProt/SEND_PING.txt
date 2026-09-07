@@ -1,0 +1,6 @@
+# SEND_PING -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+a int
+b int

@@ -1,0 +1,7 @@
+# LOC_ADD_CHANGE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+shapeRotation ubyte128
+loc intle
+coord ubytec

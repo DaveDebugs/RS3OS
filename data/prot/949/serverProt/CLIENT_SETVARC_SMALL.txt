@@ -1,0 +1,6 @@
+# CLIENT_SETVARC_SMALL -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+value sbytec
+id ushort128

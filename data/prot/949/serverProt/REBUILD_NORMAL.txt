@@ -1,0 +1,13 @@
+# REBUILD_NORMAL -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+chunkX ushort
+chunkY ushort128
+unused1 ubyte  never-read
+unused2 ubyte  never-read
+npcBits ubyte
+mapSize ubyte
+areaType ushort
+hash1 int
+hash2 int

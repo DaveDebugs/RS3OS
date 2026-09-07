@@ -1,0 +1,6 @@
+# IF_SETCOLOUR -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+colour ushortle
+component intle

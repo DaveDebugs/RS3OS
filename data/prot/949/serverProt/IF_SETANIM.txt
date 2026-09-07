@@ -1,0 +1,6 @@
+# IF_SETANIM -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+component intle
+anim int

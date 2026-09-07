@@ -1,0 +1,8 @@
+# LOC_ANIM_SPECIFIC -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+coord intv1
+anim intle
+arg ubyte
+shaperot ubyte128

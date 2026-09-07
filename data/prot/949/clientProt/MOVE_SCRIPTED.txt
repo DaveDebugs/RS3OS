@@ -1,0 +1,7 @@
+# MOVE_SCRIPTED -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+speed ubyte128
+x ushortle
+y ushortle128

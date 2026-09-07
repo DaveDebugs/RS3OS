@@ -1,0 +1,9 @@
+# SET_LOC_OP_OVERRIDE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+param intv2
+cursor ushortle128
+slot ubyte128
+value intv2
+text string

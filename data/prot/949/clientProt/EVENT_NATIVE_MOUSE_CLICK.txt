@@ -1,0 +1,7 @@
+# EVENT_NATIVE_MOUSE_CLICK -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+button ubyte128
+delta ushort
+coord intv1

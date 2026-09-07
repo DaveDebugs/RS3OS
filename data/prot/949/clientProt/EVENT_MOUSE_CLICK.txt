@@ -1,0 +1,7 @@
+# EVENT_MOUSE_CLICK -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+x ushortle # cursor x in client pixels, clamped to 0..0xffff
+y ushortle # cursor y in client pixels, clamped to 0..0xffff
+buttondelta ushortle # bit 15 = non-left button; bits 0..14 = ms since the previous report, saturating at 0x7fff

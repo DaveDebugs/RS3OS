@@ -1,0 +1,5 @@
+# LOGOUT_FULL -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+reason ubyte

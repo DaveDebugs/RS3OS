@@ -1,0 +1,8 @@
+# IF_SETANGLE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+slot0 ushort128
+slot1 ushortle
+component intv2
+slot2 ushortle128

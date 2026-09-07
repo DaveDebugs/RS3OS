@@ -1,0 +1,8 @@
+# OPLOC3 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+y ushort # world tile y
+x ushort128 # world tile x
+id intv1 # loc id
+ctrl ubyte128 # bit 2 of the keyboard modifier word (ctrl held); 0x80 = not held

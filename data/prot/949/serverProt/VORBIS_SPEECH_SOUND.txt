@@ -1,0 +1,8 @@
+# VORBIS_SPEECH_SOUND -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+unk0 int
+unk4 ubyte
+unk5 ushort
+unk7 ubyte

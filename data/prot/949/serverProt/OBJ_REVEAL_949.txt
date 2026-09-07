@@ -1,0 +1,8 @@
+# OBJ_REVEAL_949 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+count ushortle
+id umediumle
+coord ubyte128
+receiver ushort128

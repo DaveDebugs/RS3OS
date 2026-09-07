@@ -1,0 +1,7 @@
+# IF_SETPOSITION -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+slot1 ushortle128
+component intv2
+slot0 ushort128

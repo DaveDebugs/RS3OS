@@ -1,0 +1,5 @@
+# CHAT_FILTER_SETTINGS_PRIVATECHAT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+value ubyte

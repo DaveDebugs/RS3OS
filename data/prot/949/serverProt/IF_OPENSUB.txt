@@ -1,0 +1,11 @@
+# IF_OPENSUB -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+xtea0 int  never-read
+flag u128byte
+xtea1 int  never-read
+xtea2 int  never-read
+id ushort
+xtea3 int  never-read
+parent intv1

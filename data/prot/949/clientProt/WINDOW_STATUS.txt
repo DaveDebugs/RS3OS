@@ -1,0 +1,8 @@
+# WINDOW_STATUS -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+mode ubyte
+width ushort
+height ushort
+trailing ubyte # byte [client+0x53590+0x200]; constant 0x03 in all observed samples

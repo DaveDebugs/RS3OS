@@ -1,0 +1,10 @@
+# SOUND_AREA -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+xz ubyte
+sound int
+countradius ubyte
+loop ubyte
+volume ubyte
+extra ushort

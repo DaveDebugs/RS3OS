@@ -1,0 +1,3 @@
+// Pin the project name so the build output does not depend on the directory the
+// repository was cloned into.
+rootProject.name = 'rs3os'

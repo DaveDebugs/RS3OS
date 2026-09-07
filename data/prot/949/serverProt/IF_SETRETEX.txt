@@ -1,0 +1,8 @@
+# IF_SETRETEX -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+a ushort128
+b ushortle128
+component intle
+index ubyte128

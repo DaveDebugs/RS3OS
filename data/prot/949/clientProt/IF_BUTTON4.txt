@@ -1,0 +1,7 @@
+# IF_BUTTON4 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+arg1 int # (interface << 16) | component on the one observed frame; dispatcher arg3, event+0x110
+component umedium # sub-component id from vfunc +0xb0; -1 when the click was not on a sub-slot
+arg2 ushort # dispatcher arg4 (r15d); -1 on the one observed frame

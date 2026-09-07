@@ -1,0 +1,9 @@
+# VORBIS_SOUND -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+sound int
+count ubyte
+delay ushort
+volume ubyte
+extra ushort

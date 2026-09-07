@@ -1,0 +1,6 @@
+# IF_SETMODEL -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+parent intv1
+value int

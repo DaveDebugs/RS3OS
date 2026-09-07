@@ -1,0 +1,6 @@
+# FACE_HERE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+y ushortle128
+x ushort

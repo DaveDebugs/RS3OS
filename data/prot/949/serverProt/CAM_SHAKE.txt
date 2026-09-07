@@ -1,0 +1,9 @@
+# CAM_SHAKE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+index ubytec
+arg4 ushort128
+arg5 ubyte
+arg2 ubyte
+arg3 ubyte

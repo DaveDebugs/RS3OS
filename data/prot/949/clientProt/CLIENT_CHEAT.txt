@@ -1,0 +1,7 @@
+# CLIENT_CHEAT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+forced ubyte
+tabbed ubyte
+cheat string

@@ -1,0 +1,87 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.25'
+    id 'application'
+}
+
+group 'com.opennxt'
+version '1.0.0'
+
+// Kotlin and the two .java sources must agree on a target. Without this the
+// Kotlin compiler targets 17 while javac defaults to whichever JDK is in use.
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.jetbrains.kotlin:kotlin-reflect"
+
+    implementation "io.github.microutils:kotlin-logging-jvm:2.0.6"
+    implementation "org.slf4j:slf4j-simple:1.7.29"
+
+    implementation "com.google.guava:guava:19.0"
+    implementation "com.google.code.gson:gson:2.8.0"
+    implementation "io.github.classgraph:classgraph:4.8.105"
+    implementation "org.jglue.fluent-json:fluent-json:1.0.0"
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.9.6"
+    implementation "it.unimi.dsi:fastutil:8.2.2"
+    implementation "com.github.ajalt:clikt:2.3.0"
+    implementation 'com.github.jponge:lzma-java:1.2'
+    implementation 'org.apache.commons:commons-compress:1.18'
+    implementation "com.moandjiezana.toml:toml4j:0.7.2"
+
+    implementation "org.xerial:sqlite-jdbc:3.32.3.2"
+
+    implementation "io.netty:netty-all:4.1.63.Final"
+}
+
+// `gradlew installDist` writes a runnable tree to build/install/rs3os/.
+//
+//     build/install/rs3os/bin/rs3os run-server
+//     build/install/rs3os/bin/rs3os run-tool cache-downloader
+//
+// Both subcommands resolve ./data relative to the working directory, so run
+// them from the repository root.
+application {
+    mainClass = 'com.opennxt.MainKt'
+    applicationName = 'rs3os'
+    applicationDefaultJvmArgs = ['-Xmx3g']
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "21"
+    kotlinOptions.freeCompilerArgs = ["-Xinline-classes"]
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+// Run the server or a tool straight from source, without installDist:
+//
+//     gradlew rt --args="run-tool cache-downloader"
+//     gradlew rt --args="run-server"
+//
+// Gradle does not forward -D system properties to a JavaExec fork, so
+// -Dopennxt.* on the Gradle command line is passed through explicitly.
+tasks.register('rt', JavaExec) {
+    group = 'application'
+    description = 'Run the server or a bundled tool from the source tree'
+    mainClass = 'com.opennxt.MainKt'
+    classpath = sourceSets.main.runtimeClasspath
+    workingDir = projectDir
+    standardInput = System.in
+    doFirst {
+        System.properties.each { k, v ->
+            if (k.toString().startsWith('opennxt.')) {
+                systemProperty(k.toString(), v.toString())
+            }
+        }
+    }
+}

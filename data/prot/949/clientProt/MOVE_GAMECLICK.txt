@@ -1,0 +1,7 @@
+# MOVE_GAMECLICK -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+y ushort # world tile y
+x ushort128 # world tile x
+flags u128byte # 128 - (bit 2 of the keyboard modifier word); 0x80 = ctrl not held. Key kept as 'flags' so MoveGameClick.Codec.fromMap keeps working unchanged.

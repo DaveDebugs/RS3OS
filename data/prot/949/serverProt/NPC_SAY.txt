@@ -1,0 +1,8 @@
+# NPC_SAY -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+text string
+npc ushort
+a ubytec
+b ubytec

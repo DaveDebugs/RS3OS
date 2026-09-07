@@ -1,0 +1,9 @@
+# OPNPCT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+selobj umedium
+selsub ushortle128
+selhash intv1
+npc ushortle128
+ctrl ubyte

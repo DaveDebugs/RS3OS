@@ -1,0 +1,8 @@
+# IF_SETTARGETPARAM -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+to ushort128
+from ushortle128
+param ushortle
+component intv1

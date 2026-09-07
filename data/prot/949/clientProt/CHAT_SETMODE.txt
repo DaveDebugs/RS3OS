@@ -1,0 +1,6 @@
+# CHAT_SETMODE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+mode ubyte
+arg ubyte  # 0 from; the affined-clan argument

@@ -1,0 +1,7 @@
+# UPDATE_STAT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+experience intle
+level ubyte128
+stat ubytec

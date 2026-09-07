@@ -1,0 +1,11 @@
+# tree loc -> stump loc: which stump object a felled tree is replaced by.
+# Matched on (shape, rotation, coord byte) within a 200-tick window.
+# observations = times the pair was seen; strict = of those, with an identical zone header too.
+# Rows whose tree side declares no chop action in data/rs3.sqlite are excluded as noise;
+# this run excluded 1 such pair(s) and its wrong-tile control kept 0.
+tree_loc	tree_name	stump_loc	stump_name	observations	strict	sessions
+38760	Tree	40350	Tree stump	4	0	session-01,session-03,session-04
+38782	Tree	40351	Tree stump	6	1	session-02,session-06,session-07,session-08
+38783	Tree	40352	Tree stump	11	2	session-02,session-03,session-04,session-06,session-07,session-08
+38785	Tree	40354	Tree stump	4	0	session-05,session-07,session-09
+38788	Tree	40357	Tree stump	1	0	session-02

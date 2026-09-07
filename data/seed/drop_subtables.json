@@ -1,0 +1,1561 @@
+{
+ "_schema": "opennxt.seed.drop_subtables/1",
+ "_provenance": "documented",
+ "_provenance_meaning": "every entry was read off the runescape.wiki article in `source` by WebFetch on `retrieved`; quantities and rarities are verbatim strings with a parsed fraction alongside when parseable; tables not fetched do not appear here at all",
+ "counts": {
+  "tables": 3,
+  "entries": 108,
+  "unresolved_item_names": 0
+ },
+ "tables": {
+  "herb_table": {
+   "name": "herb_table",
+   "entries": [
+    {
+     "section": "members",
+     "item": "Grimy guam",
+     "quantity": "1",
+     "rarity": "32/128",
+     "rarity_num": 32.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      199
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy marrentill",
+     "quantity": "1",
+     "rarity": "24/128",
+     "rarity_num": 24.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      201
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy tarromin",
+     "quantity": "1",
+     "rarity": "18/128",
+     "rarity_num": 18.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      203
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy harralander",
+     "quantity": "1",
+     "rarity": "14/128",
+     "rarity_num": 14.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      205
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy ranarr",
+     "quantity": "1",
+     "rarity": "11/128",
+     "rarity_num": 11.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      207
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy irit",
+     "quantity": "1",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      209
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy avantoe",
+     "quantity": "1",
+     "rarity": "6/128",
+     "rarity_num": 6.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      211
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy kwuarm",
+     "quantity": "1",
+     "rarity": "5/128",
+     "rarity_num": 5.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      213
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy cadantine",
+     "quantity": "1",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      215
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy lantadyme",
+     "quantity": "1",
+     "rarity": "3/128",
+     "rarity_num": 3.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      2485
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "members",
+     "item": "Grimy dwarf weed",
+     "quantity": "1",
+     "rarity": "3/128",
+     "rarity_num": 3.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      217
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p",
+     "item": "Grimy guam",
+     "quantity": "1",
+     "rarity": "Common",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": null,
+     "item_ids": [
+      199
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p",
+     "item": "Grimy tarromin",
+     "quantity": "1",
+     "rarity": "Common",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": null,
+     "item_ids": [
+      203
+     ],
+     "item_match_ambiguous": false
+    }
+   ],
+   "note": null,
+   "provenance": "documented",
+   "source": "https://runescape.wiki/w/Herb_drop_table",
+ "retrieved": ""
+  },
+  "gem_table": {
+   "name": "gem_table",
+   "entries": [
+    {
+     "section": "gem",
+     "item": "Coins",
+     "quantity": "250-500",
+     "rarity": "63/128",
+     "rarity_num": 63.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      617,
+      995,
+      8890,
+      20923,
+      20924,
+      20925,
+      20926,
+      20927,
+      24860,
+      30069,
+      47363,
+      47364,
+      47365,
+      47366,
+      47367,
+      47797,
+      54830,
+      59798,
+      59799
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "gem",
+     "item": "Coins",
+     "quantity": "50",
+     "rarity": "71/128",
+     "rarity_num": 71.0,
+     "rarity_den": 128.0,
+     "note": "F2P receive coins (50) instead",
+     "item_ids": [
+      617,
+      995,
+      8890,
+      20923,
+      20924,
+      20925,
+      20926,
+      20927,
+      24860,
+      30069,
+      47363,
+      47364,
+      47365,
+      47366,
+      47367,
+      47797,
+      54830,
+      59798,
+      59799
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "gem",
+     "item": "Uncut sapphire",
+     "quantity": "1",
+     "rarity": "31/128",
+     "rarity_num": 31.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1623
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Uncut emerald",
+     "quantity": "1",
+     "rarity": "16/128",
+     "rarity_num": 16.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1621
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Uncut ruby",
+     "quantity": "1",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1619,
+      20913
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "gem",
+     "item": "Uncut diamond",
+     "quantity": "1",
+     "rarity": "2/128",
+     "rarity_num": 2.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1617
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Rune javelin",
+     "quantity": "5",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      830
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Uncut dragonstone",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      1631
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Tooth half of a key",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      985
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Loop half of a key",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      987
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "@rare_drop_table",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members; the page's 'Rare drop table (m)' row",
+     "is_table_ref": true,
+     "item_ids": []
+    }
+   ],
+   "note": null,
+   "provenance": "documented",
+   "source": "https://runescape.wiki/w/Gem_drop_table",
+ "retrieved": ""
+  },
+  "rare_drop_table": {
+   "name": "rare_drop_table",
+   "entries": [
+    {
+     "section": "gem",
+     "item": "Coins",
+     "quantity": "250-499",
+     "rarity": "63/128",
+     "rarity_num": 63.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      617,
+      995,
+      8890,
+      20923,
+      20924,
+      20925,
+      20926,
+      20927,
+      24860,
+      30069,
+      47363,
+      47364,
+      47365,
+      47366,
+      47367,
+      47797,
+      54830,
+      59798,
+      59799
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "gem",
+     "item": "Coins",
+     "quantity": "50",
+     "rarity": "70/128",
+     "rarity_num": 70.0,
+     "rarity_den": 128.0,
+     "note": "F2P",
+     "item_ids": [
+      617,
+      995,
+      8890,
+      20923,
+      20924,
+      20925,
+      20926,
+      20927,
+      24860,
+      30069,
+      47363,
+      47364,
+      47365,
+      47366,
+      47367,
+      47797,
+      54830,
+      59798,
+      59799
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "gem",
+     "item": "Uncut sapphire",
+     "quantity": "1",
+     "rarity": "31/128; 32/128",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "as printed by the fetch",
+     "item_ids": [
+      1623
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Uncut emerald",
+     "quantity": "1",
+     "rarity": "16/128",
+     "rarity_num": 16.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1621
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Uncut ruby",
+     "quantity": "1",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1619,
+      20913
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "gem",
+     "item": "Uncut diamond",
+     "quantity": "1",
+     "rarity": "2/128",
+     "rarity_num": 2.0,
+     "rarity_den": 128.0,
+     "note": null,
+     "item_ids": [
+      1617
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Rune javelin",
+     "quantity": "5",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      830
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Uncut dragonstone",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      1631
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Tooth half of a key",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      985
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "Loop half of a key",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members",
+     "item_ids": [
+      987
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "gem",
+     "item": "@rare_table",
+     "quantity": "1",
+     "rarity": "1/128",
+     "rarity_num": 1.0,
+     "rarity_den": 128.0,
+     "note": "members; resolves to this table's 'rare' section",
+     "is_table_ref": true,
+     "item_ids": []
+    },
+    {
+     "section": "rare",
+     "item": "Uncut dragonstone",
+     "quantity": "1",
+     "rarity": "8/64-8/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      1631
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Loop half of a key",
+     "quantity": "1",
+     "rarity": "6/64-6/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      987
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Tooth half of a key",
+     "quantity": "1",
+     "rarity": "6/64-6/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      985
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Huge plated rune salvage",
+     "quantity": "1",
+     "rarity": "5/64-5/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted",
+     "item_ids": [
+      47314
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Magic logs",
+     "quantity": "65-85",
+     "rarity": "4/64-4/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted",
+     "item_ids": [
+      1513
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Rune arrowheads",
+     "quantity": "110-140",
+     "rarity": "4/64-4/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      44
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Soft clay",
+     "quantity": "35-45",
+     "rarity": "4/64-4/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted",
+     "item_ids": [
+      1761,
+      25627
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "rare",
+     "item": "Small bladed orikalkum salvage",
+     "quantity": "1",
+     "rarity": "2/64-2/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted",
+     "item_ids": [
+      52945
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Catalytic anima stone",
+     "quantity": "35-45",
+     "rarity": "2/64-2/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      54019
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Teak plank",
+     "quantity": "45-55",
+     "rarity": "2/64-2/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted",
+     "item_ids": [
+      8780
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Dragon bones",
+     "quantity": "35-45",
+     "rarity": "2/64-2/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted",
+     "item_ids": [
+      536,
+      17676
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "rare",
+     "item": "Dragon helm",
+     "quantity": "1",
+     "rarity": "2/64-2/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      1149,
+      24947
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "rare",
+     "item": "Dragon longsword",
+     "quantity": "1",
+     "rarity": "1/128-1/104",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      1305
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Off-hand dragon longsword",
+     "quantity": "1",
+     "rarity": "1/128-1/104",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      25740
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Molten glass",
+     "quantity": "45-55",
+     "rarity": "4/64; 0",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted; as printed",
+     "item_ids": [
+      1775
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Runite stone spirit",
+     "quantity": "25-35",
+     "rarity": "4/64; 4/60; 0",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; as printed",
+     "item_ids": [
+      44808
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "rare",
+     "item": "Raw lobster",
+     "quantity": "135-165",
+     "rarity": "4/64-4/56; 0",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; noted; as printed",
+     "item_ids": [
+      377,
+      20908,
+      43859
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "rare",
+     "item": "@super_rare_table",
+     "quantity": "1",
+     "rarity": "4/64-4/52",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members; resolves to this table's 'super_rare' section",
+     "is_table_ref": true,
+     "item_ids": []
+    },
+    {
+     "section": "super_rare",
+     "item": "Hazelmere's signet ring",
+     "quantity": "1",
+     "rarity": "~1/6400",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      39814,
+      47831
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Blurberry Special",
+     "quantity": "1",
+     "rarity": "~9/6400",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      2064,
+      9520
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Cheese+tom batta",
+     "quantity": "1",
+     "rarity": "~1/640",
+     "rarity_num": null,
+     "rarity_den": null,
+     "note": "members",
+     "item_ids": [
+      2259,
+      9535
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Dragon helm",
+     "quantity": "1",
+     "rarity": "39/640",
+     "rarity_num": 39.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      1149,
+      24947
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Shield left half",
+     "quantity": "1",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      2366
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Dragon spear",
+     "quantity": "1",
+     "rarity": "35/640",
+     "rarity_num": 35.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      1249
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Dragon longsword",
+     "quantity": "1",
+     "rarity": "39/1280",
+     "rarity_num": 39.0,
+     "rarity_den": 1280.0,
+     "note": "members",
+     "item_ids": [
+      1305
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Off-hand dragon longsword",
+     "quantity": "1",
+     "rarity": "39/1280",
+     "rarity_num": 39.0,
+     "rarity_den": 1280.0,
+     "note": "members",
+     "item_ids": [
+      25740
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Huge plated rune salvage",
+     "quantity": "18-22",
+     "rarity": "15/640",
+     "rarity_num": 15.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      47314
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Yew logs",
+     "quantity": "675-825",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      1515
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Super restore (4)",
+     "quantity": "45-55",
+     "rarity": "30/640",
+     "rarity_num": 30.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      3024
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Prayer potion (4)",
+     "quantity": "45-55",
+     "rarity": "30/640",
+     "rarity_num": 30.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      2434,
+      14209
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Raw rocktail",
+     "quantity": "180-220",
+     "rarity": "25/640",
+     "rarity_num": 25.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      15270,
+      44280
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Mahogany plank",
+     "quantity": "270-330",
+     "rarity": "15/640",
+     "rarity_num": 15.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      8782
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Magic seed",
+     "quantity": "3-5",
+     "rarity": "10/640",
+     "rarity_num": 10.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      5316,
+      44322
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Water talisman",
+     "quantity": "68-82",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      1444
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Battlestaff",
+     "quantity": "180-220",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      1391
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Hardened dragon bones",
+     "quantity": "45-55",
+     "rarity": "10/640",
+     "rarity_num": 10.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      35008
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Onyx bolt tips",
+     "quantity": "135-165",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      9194
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Ciku seed",
+     "quantity": "1",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      48769,
+      48912
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Golden dragonfruit seed",
+     "quantity": "14-16",
+     "rarity": "15/640",
+     "rarity_num": 15.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      48764,
+      48908
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Uncut diamond",
+     "quantity": "45-55",
+     "rarity": "25/640",
+     "rarity_num": 25.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      1617
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Uncut dragonstone",
+     "quantity": "45-55",
+     "rarity": "10/640",
+     "rarity_num": 10.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      1631
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Soul rune",
+     "quantity": "450-550",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      566,
+      17793,
+      24226
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Light animica stone spirit",
+     "quantity": "270-330",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      44814
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Dark animica stone spirit",
+     "quantity": "270-330",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      44815
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Primal stone spirit",
+     "quantity": "90-140",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      57174
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Crystal key",
+     "quantity": "9-11",
+     "rarity": "60/640",
+     "rarity_num": 60.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      989
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "White berries",
+     "quantity": "65-85",
+     "rarity": "15/640",
+     "rarity_num": 15.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      239,
+      43795
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Ectoplasm",
+     "quantity": "270-330",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      53933,
+      55336
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Medium spiky orikalkum salvage",
+     "quantity": "3-5",
+     "rarity": "20/640",
+     "rarity_num": 20.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      51103
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Large blunt necronium salvage",
+     "quantity": "2",
+     "rarity": "15/640",
+     "rarity_num": 15.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      53507
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Wine of Saradomin",
+     "quantity": "14-16",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members; noted",
+     "item_ids": [
+      28256
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Starbloom flower seed",
+     "quantity": "5-8",
+     "rarity": "25/640",
+     "rarity_num": 25.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      58976,
+      58977
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "super_rare",
+     "item": "Distraction & Diversion reset token (daily)",
+     "quantity": "1",
+     "rarity": "10/640",
+     "rarity_num": 10.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      27234
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Distraction & Diversion reset token (weekly)",
+     "quantity": "1",
+     "rarity": "10/640",
+     "rarity_num": 10.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      27235
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Distraction & Diversion reset token (monthly)",
+     "quantity": "1",
+     "rarity": "10/640",
+     "rarity_num": 10.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      27236
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Vecna skull",
+     "quantity": "1",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      20667
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "super_rare",
+     "item": "Coins",
+     "quantity": "7500-12500",
+     "rarity": "8/640",
+     "rarity_num": 8.0,
+     "rarity_den": 640.0,
+     "note": "members",
+     "item_ids": [
+      617,
+      995,
+      8890,
+      20923,
+      20924,
+      20925,
+      20926,
+      20927,
+      24860,
+      30069,
+      47363,
+      47364,
+      47365,
+      47366,
+      47367,
+      47797,
+      54830,
+      59798,
+      59799
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Raw swordfish",
+     "quantity": "30-50",
+     "rarity": "20/128",
+     "rarity_num": 20.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      371,
+      43870
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Uncut diamond",
+     "quantity": "1",
+     "rarity": "16/128",
+     "rarity_num": 16.0,
+     "rarity_den": 128.0,
+     "note": "F2P",
+     "item_ids": [
+      1617
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Huge plated rune salvage",
+     "quantity": "1",
+     "rarity": "10/128",
+     "rarity_num": 10.0,
+     "rarity_den": 128.0,
+     "note": "F2P",
+     "item_ids": [
+      47314
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Yew logs",
+     "quantity": "68-82",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1515
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Rune arrowheads",
+     "quantity": "113-137",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P",
+     "item_ids": [
+      44
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Raw lobster",
+     "quantity": "135-165",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      377,
+      20908,
+      43859
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Green dragon leather",
+     "quantity": "30-40",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1745,
+      25605,
+      25615,
+      60380
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Flax",
+     "quantity": "450-550",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1779,
+      39698,
+      44246
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Uncut emerald",
+     "quantity": "20-30",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1621
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Chocolate dust",
+     "quantity": "20-40",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1975
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Runite stone spirit",
+     "quantity": "3",
+     "rarity": "8/128",
+     "rarity_num": 8.0,
+     "rarity_den": 128.0,
+     "note": "F2P",
+     "item_ids": [
+      44808
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Uncut ruby",
+     "quantity": "10-20",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1619,
+      20913
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Oak logs",
+     "quantity": "78-88",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      1521
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Gold stone spirit",
+     "quantity": "45-55",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": "F2P",
+     "item_ids": [
+      44803
+     ],
+     "item_match_ambiguous": false
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Big bones",
+     "quantity": "68-82",
+     "rarity": "4/128",
+     "rarity_num": 4.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      532,
+      17674
+     ],
+     "item_match_ambiguous": true
+    },
+    {
+     "section": "f2p_rare",
+     "item": "Blue dragon leather",
+     "quantity": "20-30",
+     "rarity": "2/128",
+     "rarity_num": 2.0,
+     "rarity_den": 128.0,
+     "note": "F2P; noted",
+     "item_ids": [
+      2505,
+      25606,
+      25616,
+      60381
+     ],
+     "item_match_ambiguous": true
+    }
+   ],
+   "note": "the leading 'gem' section is this page's own gem-table access block, kept verbatim from this fetch even where it differs slightly from the Gem_drop_table page fetch",
+   "provenance": "documented",
+   "source": "https://runescape.wiki/w/Rare_drop_table",
+ "retrieved": ""
+  }
+ }
+}

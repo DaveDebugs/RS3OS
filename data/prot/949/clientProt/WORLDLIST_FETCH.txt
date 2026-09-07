@@ -1,0 +1,5 @@
+# WORLDLIST_FETCH -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+checksum int # the cached world list checksum, read from the worldlist object

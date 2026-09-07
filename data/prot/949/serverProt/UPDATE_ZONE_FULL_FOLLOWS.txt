@@ -1,0 +1,7 @@
+# UPDATE_ZONE_FULL_FOLLOWS -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+level ubyte
+zoneX sbyte
+zoneY sbyte128

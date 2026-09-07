@@ -1,0 +1,6 @@
+# EVENT_CAMERA_POSITION -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+angle1 ushortle # 11-bit camera angle, (0xc00 - raw) normalised; probably yaw
+angle2 ushortle128 # 11-bit camera angle; probably pitch

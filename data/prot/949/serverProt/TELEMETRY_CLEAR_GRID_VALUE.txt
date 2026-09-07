@@ -1,0 +1,7 @@
+# TELEMETRY_CLEAR_GRID_VALUE -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+row ubytec
+column ubyte128
+table ubyte

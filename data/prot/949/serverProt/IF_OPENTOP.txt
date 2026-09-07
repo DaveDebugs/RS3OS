@@ -1,0 +1,10 @@
+# IF_OPENTOP -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+xtea0 int  never-read
+xtea1 int  never-read
+id ushortle128
+xtea2 int  never-read
+xtea3 int  never-read
+bool ubyte  never-read

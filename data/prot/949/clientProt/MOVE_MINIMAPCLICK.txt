@@ -1,0 +1,17 @@
+# MOVE_MINIMAPCLICK -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+y ushort # world tile y
+x ushort128 # world tile x
+flags u128byte # 128 - (bit 2 of the keyboard modifier word)
+junk1 ubyte # constant 0xff
+junk2 ubyte # constant 0xff
+junk3 ushort # constant 0
+junk4 ubyte # constant 0x39
+junk5 ubyte # constant 0
+junk6 ubyte # constant 0
+junk7 ubyte # constant 0x59
+camera1 ushort # camera float at +0xd0 truncated to int
+camera2 ushort # camera float at +0xd4 truncated to int
+junk8 ubyte # constant 0x3f

@@ -1,0 +1,5 @@
+# LAST_LOGIN_INFO -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+ip int

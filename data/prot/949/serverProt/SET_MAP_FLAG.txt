@@ -1,0 +1,11 @@
+# SET_MAP_FLAG -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+unk1 ubyte # 0xff on all 34 frames of 949-session4
+localY ubyte # destination y within the loaded scene; add the scene base from REBUILD_NORMAL
+localX ubytec # destination x within the loaded scene, negated: x = (256 - b) & 0xff
+unk4 u128byte # 0x80 on all 34 frames
+unk5 u128byte # 0x81 on all 34 frames
+unk6 ubytec # 0x01 on all 34 frames
+target intv2 # -1 on 30 of 34; the four exceptions pair with NPC clicks

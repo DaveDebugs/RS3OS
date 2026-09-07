@@ -1,0 +1,5 @@
+# CLEAR_PLAYER_SNAPSHOT -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+slot ubyte

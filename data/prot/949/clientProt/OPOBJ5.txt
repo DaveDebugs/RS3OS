@@ -1,0 +1,8 @@
+# OPOBJ5 -- wire layout.
+#
+# One field per line, in the order they appear on the wire:
+#     <name> <type> [# note]
+flags u128byte # bit 0 = ctrl held; bit 1 = a second input-state bit, meaning NOT established
+id umedium # the object (item) id of the ground object that was clicked
+y ushort # world tile y
+x ushort # world tile x
